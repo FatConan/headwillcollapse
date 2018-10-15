@@ -1,0 +1,15 @@
+.debug section.content div.inner{
+    background: orange;
+}
+
+.debug footer{
+    background: pink;
+}
+
+.debug ul.nav-links{
+    background: blue;
+}
+
+.debug header{
+    background: green;
+}
