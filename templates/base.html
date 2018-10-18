@@ -13,12 +13,16 @@
     </head>
     <body>
         <div class="body-wrapper">
-            <header class="{% if homepage %}homepage{%  else %}subpage{% endif %}">
-
+            <header>
+                <div>
+                    <h1>headwillcollapse.net</h1>
+                    <h2>Your head will collapse, if there's nothing in it</h2>
+                </div>
             </header>
             <section class="content {{ extended_classes }}">
-
-
+                <div>
+                    {% block extension %}{% endblock %}
+                </div>
             </section>
             <footer>
                 <p>Created using <a href="https://github.com/NeuralSandwich/stone">stone</a> by <a href="https://github.com/NeuralSandwich">NeuralSandwich</a></p>

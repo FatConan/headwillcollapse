@@ -1,15 +1,11 @@
 {   
     "sites": [
     {
-        "root": "themonstrouscavalca",
+        "root": "headwillcollapse",
         "pages": [
             {
                 "source": "pages/index.md",
                 "target": "output/index.html"
-            },
-            {
-                "source": "pages/errors/404.md",
-                "target": "output/404.shtml"
             }
         ],
         "templates": [

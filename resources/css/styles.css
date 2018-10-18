@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css?family=KoHo|Yanone+Kaffeesatz');
+
+body {
+    font-family: 'KoHo', sans-serif;
+    font-size: 13pt;
+    background: #DAD8A7 url(/resources/img/brain.svg) top left 10% no-repeat;
+    background-size: auto 98vh;
+    transition: background-position 0.5s;
+}
+
+a{
+    color: #FF3D7F;
+}
+
+header {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    box-sizing: border-box;
+}
+
+
+section.content {
+    box-sizing: border-box;
+    line-height: 1.6;
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+section.content div {
+    background: rgba(255, 255, 255, 0.6);
+    grid-column: 2;
+    margin: 0 3em 3em 0;
+    padding: 3em;
+    box-sizing: border-box;
+    /*box-shadow: 10px 10px 0 #3FB8AF;*/
+}
+
+header div {
+    grid-column: 2;
+}
+
+header h1 {
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size: 3.4em;
+    font-weight: bold;
+    color: #FF3D7F;
+    padding: 1em 0 0;
+}
+
+header h2 {
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    padding: 0 0 1em 0;
+    font-size: 2.4em;
+    font-weight: bold;
+    color: #000;
+}
+
+@media(max-width: 1280px){
+    body {
+        background-position: center center;
+        background-size: 100% auto;
+    }
+
+    header div {
+        grid-column-start: 1;
+        grid-column-end: 3;
+        margin: 0 3em;
+    }
+
+    section.content div {
+        grid-column-start: 1;
+        grid-column-end: 3;
+        margin: 0 3em 3em 3em;
+    }
+
+}
+
+
+footer {
+    position: fixed;
+    display: none;
+    bottom: 0;
+    padding: 1em;
+    background: rgba(255,255,255,0.6);
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.content p {
+    font-size: 2.4em;
+}
