@@ -3,6 +3,8 @@ template: page.html
 extended_classes: homepage
 homepage: true
 
-This site was the former presence of <a href="https://twitter.com/fatconan">@fatconan</a> on the web. It has subsequently been replaced by
-his new site at <a href="http://themonstrouscavalca.de">themonstrouscavalca.de</a>. This site may one day be resurrected for some
-nefarious means, but until then it's on hiatus. 
+This site is a repository of things [@fatconan](https://twitter.com/fatconan) desperately jams into his head in an effort to 
+keep it from collapsing. It's partially successfully in that his mind hasn't yet fully deflated. He hopes that others in similar 
+situations to his, whose minds are equally leaky, find something here to help counter the loss.
+
+ 

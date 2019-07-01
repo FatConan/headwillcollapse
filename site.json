@@ -5,7 +5,11 @@
         "pages": [
             {
                 "source": "pages/index.md",
-                "target": "output/index.html"
+                "target": "index.html"
+            },
+            {
+                "source": "pages/blog/*.md",
+                "target": "blog/*.html"
             }
         ],
         "templates": [
@@ -13,26 +17,8 @@
         ],
         "resources": [
             {
-                "source": "resources/css/reset.css",
-                "target": "output/resources/css/reset.css"
-            },
-            {
-                "source": "resources/css/styles.css",
-                "target": "output/resources/css/styles.css"
-            },
-            {
-                "source": "resources/css/debug.css",
-                "target": "output/resources/css/debug.css"
-            },
-            {
-                "source": "resources/img",
-                "target": "output/resources/img",
-                "resource_type": "relocate"
-            },
-            {
-                "source": "resources/scripts",
-                "target": "output/resources/scripts",
-                "resource_type": "relocate"
+                "source": "resources",
+                "target": "resources"
             }
         ]
     }

@@ -19,13 +19,16 @@
                     <h2>Your head will collapse, if there's nothing in it</h2>
                 </div>
             </header>
-            <section class="content {{ extended_classes }}">
-                <div>
-                    {% block extension %}{% endblock %}
-                </div>
-            </section>
+            <div class="content-wrapper">
+                {%  block navigation %}{%  endblock %}
+                <section class="content {{ extended_classes }}">
+                    <div>
+                        {% block extension %}{% endblock %}
+                    </div>
+                </section>
+            </div>
             <footer>
-                <p>Created using <a href="https://github.com/NeuralSandwich/stone">stone</a> by <a href="https://github.com/NeuralSandwich">NeuralSandwich</a></p>
+                <p>Built upon the <a href="https://github.com/FatConan/sand">Sand</a></p>
             </footer>
         </div>
     </body>
