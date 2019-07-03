@@ -1,44 +1,84 @@
 @import url('https://fonts.googleapis.com/css?family=KoHo|Yanone+Kaffeesatz');
 
-body {
+body{
     font-family: 'KoHo', sans-serif;
-    font-size: 13pt;
-    background: #DAD8A7 url(/resources/img/brain.svg) top left 10% no-repeat;
-    background-size: 75% auto;
-    transition: background-position 0.5s;
+    font-size: 11pt;
+    background: #DAD8A7 url(/resources/img/brain.svg) top -200px left -100px no-repeat;
+    background-size: 1000px auto;
+    color: #232323;
+    box-sizing: border-box;
 }
 
 a{
     color: #FF3D7F;
 }
 
-header {
+header{
     text-align: right;
     box-sizing: border-box;
     margin: 0 auto;
-    max-width: 80%;
+    max-width: 95%;
 }
 .content-wrapper{
     margin: 0 auto;
-    max-width: 80%;
+    max-width: 95%;
     display: grid;
-    grid-template-columns: 175px 1fr;
-    grid-gap: 3em;
+    grid-template-columns: 275px 1fr;
+    grid-gap: 40px;
     padding: 0 3em 3em;
 }
 
-section.content {
+@media only screen and (max-width: 1024px){
+    .content-wrapper{
+        grid-template-columns: 1fr;
+        max-width: 95%;
+    }
+
+    nav{
+        grid-row: 2;
+    }
+
+    section.content{
+        grid-row: 1;
+    }
+}
+
+nav{
+    font-size: 1.7em;
+    margin-top: 320px;
+}
+nav li{
+    display: block;
+    background: #000;
+}
+nav a {
+    display: block;
+    padding: 10px;
+}
+
+section.content{
     box-sizing: border-box;
     line-height: 1.6;
 }
 
-section.content div {
-    background: rgba(255, 255, 255, 0.6);
-    padding: 3em;
+section.content div.content-inner{
+    border: 5px solid #3fb8af;
+    border-radius: 90px 0 0 0;
+    background:  #DAD8A7;
+    padding: 40px;
     box-sizing: border-box;
 }
+section.content div.logo{
+    border: 0;
+    background: url(/resources/img/brain-alt.svg) center center no-repeat;
+    background-size: 180px auto;
+    float: left;
+    width: 180px;
+    height: 180px;
+    margin: -40px 20px 10px -40px;
+}
 
-header h1 {
+header h1{
     font-family: 'Yanone Kaffeesatz', sans-serif;
     font-size: 3.4em;
     font-weight: bold;
@@ -46,18 +86,31 @@ header h1 {
     padding: 1em 0 0;
 }
 
-header h2 {
+header h2{
     font-family: 'Yanone Kaffeesatz', sans-serif;
     padding: 0 0 1em 0;
     font-size: 2.4em;
     font-weight: bold;
-    color: #000;
 }
 
-.content {
-    font-size: 11pt;
+.content{
+    font-size: 2.4em;
 }
-.content p {
+.content p{
+    margin-bottom: 1em;
+}
+.content h1{
+    border-bottom: 1px solid;
+    text-transform: uppercase;
+    margin-bottom: 1em;
+    font-weight: bold;
+    color: #FF3D7F;
+}
+.content h2{
+    margin-bottom: 1em;
+    font-weight: bold;
+}
+.content h3{
     margin-bottom: 1em;
 }
 .content .youtube-holder{
@@ -80,7 +133,7 @@ header h2 {
 
 }
 
-footer {
+footer{
     position: fixed;
     display: none;
     bottom: 0;
@@ -90,6 +143,4 @@ footer {
     box-sizing: border-box;
 }
 
-.content p {
-    font-size: 2.4em;
-}
+
