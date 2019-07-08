@@ -20,13 +20,14 @@
                 </div>
             </header>
             <div class="content-wrapper">
-                {%  block navigation %}{%  endblock %}
+                {% block navigation %}{%  endblock %}
                 <section class="content {{ extended_classes }}">
                     <div class="content-inner">
-                        <div class="logo"></div>
+                        <div class="logo"><a href="/">Headwillcollapse</a></div>
                         {% block extension %}{% endblock %}
                     </div>
                 </section>
+                {% block page_pavigation %}{% endblock %}
             </div>
             <footer>
                 <p>Built upon the <a href="https://github.com/FatConan/sand">Sand</a></p>

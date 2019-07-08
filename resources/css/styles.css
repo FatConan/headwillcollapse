@@ -11,52 +11,70 @@ body{
 
 a{
     color: #FF3D7F;
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
 }
 
 header{
+    display: grid;
+    grid-template-columns: 1.5fr 0.25fr;
+    grid-gap: 40px;
     text-align: right;
     box-sizing: border-box;
     margin: 0 auto;
     max-width: 95%;
+    padding: 0 3em 1em;
 }
+
 .content-wrapper{
     margin: 0 auto;
     max-width: 95%;
     display: grid;
-    grid-template-columns: 275px 1fr;
+    grid-template-columns: 0.5fr 1fr 0.25fr;
     grid-gap: 40px;
     padding: 0 3em 3em;
+    box-sizing: border-box;
 }
 
-@media only screen and (max-width: 1024px){
-    .content-wrapper{
-        grid-template-columns: 1fr;
-        max-width: 95%;
-    }
-
-    nav{
-        grid-row: 2;
-    }
-
-    section.content{
-        grid-row: 1;
-    }
-}
-
-nav{
+nav.main{
+    grid-column: 1;
     font-size: 1.7em;
-    margin-top: 320px;
+    margin-top: 400px;
+    border-radius: 0 80px 0 0;
+    background: #f7f7ed url(/resources/img/brain.svg) right top no-repeat;
+    background-size: 140px auto;
+    border: 5px solid #3fb8af;
+    overflow: hidden;
 }
-nav li{
-    display: block;
-    background: #000;
+nav.main h3{
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    padding: 20px 20px 0 20px;
+    margin: 0 5px 0 15px;
+    font-size: 1.5em;
+    font-weight: bold;
+    box-sizing: border-box;
 }
-nav a {
+nav.main ul {
+    margin: 5px;
+}
+nav.main li{
     display: block;
-    padding: 10px;
+}
+nav.main a {
+    border-left: 10px solid #f7f7ed;
+    display: block;
+    padding: 20px;
+}
+nav.main a:hover{
+    border-left: 10px solid #DAD8A7;
+    background: rgba(218, 216, 167, 0.3);
 }
 
 section.content{
+    grid-column: 2;
     box-sizing: border-box;
     line-height: 1.6;
 }
@@ -64,18 +82,24 @@ section.content{
 section.content div.content-inner{
     border: 5px solid #3fb8af;
     border-radius: 90px 0 0 0;
-    background:  #DAD8A7;
+    background: #f7f7ed;
     padding: 40px;
     box-sizing: border-box;
 }
 section.content div.logo{
-    border: 0;
+    float: left;
+    margin: -40px 20px 10px -40px;
+}
+section.content div.logo a{
+    display: block;
+    box-sizing: border-box;
     background: url(/resources/img/brain-alt.svg) center center no-repeat;
     background-size: 180px auto;
-    float: left;
     width: 180px;
     height: 180px;
-    margin: -40px 20px 10px -40px;
+    border: 0;
+    overflow: hidden;
+    text-indent: -9999px;
 }
 
 header h1{
@@ -124,13 +148,18 @@ header h2{
     margin: 25px 0;
 }
 
+.content .soundcloud-holder iframe{
+    border: 2px solid #3fb8af;
+    margin: 0 0 40px;
+}
+
 .content .youtube-holder iframe{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
-
 }
 
 footer{
@@ -143,4 +172,21 @@ footer{
     box-sizing: border-box;
 }
 
+@media only screen and (max-width: 1024px){
+    header,
+    .content-wrapper{
+        grid-template-columns: 1fr;
+        max-width: 95%;
+        grid-gap: 0;
+    }
 
+    nav.main{
+        grid-row: 2;
+        margin-top: 1em;
+    }
+
+    section.content{
+        grid-column: 1;
+        grid-row: 1;
+    }
+}
