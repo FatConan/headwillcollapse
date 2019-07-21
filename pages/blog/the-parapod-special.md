@@ -2,7 +2,7 @@ page_title: headwillcollapse.net - The Parapod Special
 template: page.html
 extended_classes: homepage
 sub_title: The Parapod Special
-tags: podcasts,paranormal
+tags: podcasts
 
 #The Parapod Special
 
@@ -32,4 +32,4 @@ podcasts I've heard.
 <iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/238194679&color=%233fb8af&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
 </div>
   
- 
+<div class="footnote">The Parapod can be found at <a target="_blank" href="https://theparapod.com/">theparapod.com</a> along with the trailer for the upcoming Parapod movie.</div>

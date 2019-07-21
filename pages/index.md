@@ -2,6 +2,7 @@ page_title: headwillcollapse.net
 template: index.html
 extended_classes: homepage
 homepage: true
+jinja_pass: True
 
 # Welcome
 

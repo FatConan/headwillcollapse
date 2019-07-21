@@ -1,12 +1,21 @@
 @import url('https://fonts.googleapis.com/css?family=KoHo|Yanone+Kaffeesatz');
 
+/*
+green #3fb8af
+pink: #FF3D7F
+ */
+
 body{
     font-family: 'KoHo', sans-serif;
-    font-size: 11pt;
-    background: #DAD8A7 url(/resources/img/brain.svg) top -200px left -100px no-repeat;
+    font-size: 18pt;
+    background: #e1e1e1 url(/resources/img/brain.svg) top -200px left -100px no-repeat;
     background-size: 1000px auto;
     color: #232323;
     box-sizing: border-box;
+}
+
+strong{
+    font-weight: bold;
 }
 
 a{
@@ -15,45 +24,65 @@ a{
 }
 
 a:hover{
-    text-decoration: underline;
+    font-weight: bold;
 }
 
 header{
     display: grid;
-    grid-template-columns: 1.5fr 0.25fr;
+    grid-template-columns: 1.75fr;
     grid-gap: 40px;
     text-align: right;
     box-sizing: border-box;
-    margin: 0 auto;
-    max-width: 95%;
-    padding: 0 3em 1em;
+    margin: 0 auto 20px;
+    max-width: 1300px;
+    padding: 15px 20px 15px;
+}
+header h1{
+    float: right;
+    display: inline-block;
+    background: rgba(255,255,255,0.8);
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    font-size: 50pt;
+    font-weight: bold;
+    color: #FF3D7F;
+    padding: 15px 20px 0;
+}
+header h2{
+    float: right;
+    clear: both;
+    display: inline-block;
+    background: rgba(255,255,255,0.8);
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    padding: 15px 20px 15px;
+    font-size: 30pt;
+    font-weight: bold;
 }
 
 .content-wrapper{
+    sbackground: rgba(255,255,255,0.8);
     margin: 0 auto;
-    max-width: 95%;
+    max-width: 1300px;
     display: grid;
-    grid-template-columns: 0.5fr 1fr 0.25fr;
+    grid-template-columns: 0.5fr 1.25fr;
     grid-gap: 40px;
-    padding: 0 3em 3em;
+    padding: 20px;
     box-sizing: border-box;
 }
 
 nav.main{
     grid-column: 1;
-    font-size: 1.7em;
-    margin-top: 400px;
-    border-radius: 0 80px 0 0;
-    background: #f7f7ed url(/resources/img/brain.svg) right top no-repeat;
-    background-size: 140px auto;
-    border: 5px solid #3fb8af;
+    background: rgba(255,255,255,0.9);
+    background-size: 64px auto;
+    padding: 20px;
+    margin: 0 0 40px;
     overflow: hidden;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    box-sizing: border-box;
 }
 nav.main h3{
     font-family: 'Yanone Kaffeesatz', sans-serif;
-    padding: 20px 20px 0 20px;
-    margin: 0 5px 0 15px;
-    font-size: 1.5em;
+    padding: 0 0 15px 0;
+    font-size: 30pt;
     font-weight: bold;
     box-sizing: border-box;
 }
@@ -61,16 +90,17 @@ nav.main ul {
     margin: 5px;
 }
 nav.main li{
-    display: block;
+    display: grid;
+    grid-template-columns: auto;
 }
 nav.main a {
-    border-left: 10px solid #f7f7ed;
+    border-left: 10px solid #3fb8af;
     display: block;
     padding: 20px;
+    font-size: 16pt;
 }
 nav.main a:hover{
-    border-left: 10px solid #DAD8A7;
-    background: rgba(218, 216, 167, 0.3);
+    border-left: 10px solid #FF3D7F;
 }
 
 section.content{
@@ -80,15 +110,14 @@ section.content{
 }
 
 section.content div.content-inner{
-    border: 5px solid #3fb8af;
-    border-radius: 90px 0 0 0;
-    background: #f7f7ed;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background: rgba(255,255,255,0.9);
     padding: 40px;
     box-sizing: border-box;
 }
 section.content div.logo{
     float: left;
-    margin: -40px 20px 10px -40px;
+    margin: -20px 20px 10px -20px;
 }
 section.content div.logo a{
     display: block;
@@ -102,28 +131,14 @@ section.content div.logo a{
     text-indent: -9999px;
 }
 
-header h1{
-    font-family: 'Yanone Kaffeesatz', sans-serif;
-    font-size: 3.4em;
-    font-weight: bold;
-    color: #FF3D7F;
-    padding: 1em 0 0;
-}
-
-header h2{
-    font-family: 'Yanone Kaffeesatz', sans-serif;
-    padding: 0 0 1em 0;
-    font-size: 2.4em;
-    font-weight: bold;
-}
-
 .content{
-    font-size: 2.4em;
+    font-size: 18pt;
 }
 .content p{
     margin-bottom: 1em;
 }
 .content h1{
+    font-size: 30pt;
     border-bottom: 1px solid;
     text-transform: uppercase;
     margin-bottom: 1em;
@@ -131,6 +146,7 @@ header h2{
     color: #FF3D7F;
 }
 .content h2{
+    font-size: 22pt;
     margin-bottom: 1em;
     font-weight: bold;
 }
@@ -149,7 +165,7 @@ header h2{
 }
 
 .content .soundcloud-holder iframe{
-    border: 2px solid #3fb8af;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     margin: 0 0 40px;
 }
 
@@ -160,6 +176,12 @@ header h2{
     left: 0;
     width: 100%;
     height: 100%;
+}
+
+.content .footnote{
+    border-top: 1px solid #e1e1e1;
+    padding-top: 15px;
+    font-size: 13pt;
 }
 
 footer{
@@ -180,9 +202,9 @@ footer{
         grid-gap: 0;
     }
 
-    nav.main{
+    section.navigation{
         grid-row: 2;
-        margin-top: 1em;
+        margin-top: 20px;
     }
 
     section.content{
