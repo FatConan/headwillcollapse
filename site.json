@@ -19,7 +19,11 @@
             {
                 "source": "resources",
                 "target": "resources"
-            }
+            },
+	    {
+		"source": "favicon.ico",
+		"target": "favicon.ico"
+	    }
         ]
     }
 ]}
