@@ -169,6 +169,18 @@ section.content div.logo a{
     margin: 0 0 40px;
 }
 
+.content .audio{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background: #3fb8af;
+    margin: 0 0 40px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+.content .audio audio{
+    width: 100%;
+    box-sizing: border-box;
+}
+
 .content .youtube-holder iframe{
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     position: absolute;
