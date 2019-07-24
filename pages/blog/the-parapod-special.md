@@ -1,6 +1,5 @@
 page_title: headwillcollapse.net - The Parapod Special
 template: page.html
-extended_classes: homepage
 sub_title: The Parapod Special
 tags: podcasts
 

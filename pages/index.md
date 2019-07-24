@@ -17,7 +17,7 @@ whomever reads this discovers they love them too.
 ## The latest 3 brain fillers
 <nav class="inline">
     <ul>
-    {% for page_path, page in GLOBALS["site"].page_reference.get("/blog", []) %}
+    {% for page_path, page in GLOBALS["site"].page_reference.get("/blog", [])[:3] %}
         <li><a href="{{ page.target_url }}">{{ page.data.get("sub_title", "Unknown") }}</a></li>
     {% endfor %}
     </ul>

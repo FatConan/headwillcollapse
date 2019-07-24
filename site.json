@@ -10,6 +10,10 @@
             {
                 "source": "pages/blog/*.md",
                 "target": "blog/*.html"
+            },
+            {
+                "source": "pages/errors/*.md",
+                "target": "./*.shtml"
             }
         ],
         "templates": [

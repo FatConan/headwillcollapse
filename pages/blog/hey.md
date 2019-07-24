@@ -1,6 +1,5 @@
 page_title: headwillcollapse.net - Hey 
 template: page.html
-extended_classes: homepage
 tags: music,
 sub_title: Hey! by the Pixies
 
