@@ -1,7 +1,8 @@
-page_title: headwillcollapse.net - The Parapod Special
+page_title: The Parapod Special
 template: page.html
 sub_title: The Parapod Special
 tags: podcasts
+created: 2019-07-24 00:00:00
 
 #The Parapod Special
 

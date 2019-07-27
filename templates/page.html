@@ -1,15 +1,6 @@
 {% extends "base.html" %}
 {% block navigation %}
-    <section class="navigation">
-        <nav class="main">
-            <h3>Navigate</h3>
-            <ul>
-            {% for page_path, page in GLOBALS["site"].page_reference.get("/blog", []) %}
-                <li><a href="/blog/{{  page_path }}">{{ page.data.get("sub_title", "Unknown") }}</a></li>
-            {% endfor %}
-            </ul>
-        </nav>
-    </section>
+   {%  include "snippets/nav.html" %}
 {%  endblock %}
 {% block extension %}
     {{ content|safe }}

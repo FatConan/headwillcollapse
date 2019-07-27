@@ -1,7 +1,9 @@
-page_title: headwillcollapse.net - Paul F Tompkins on Stop Podcasting Yourself
+page_title: Paul F Tompkins on Stop Podcasting Yourself
 template: page.html
-tags: podcasts,
+tags: podcasts
 sub_title: P.F.T on S.P.Y
+created: 2019-07-26 00:00:00
+
 
 #P.F.T on S.P.Y
 

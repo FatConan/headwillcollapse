@@ -1,7 +1,8 @@
-page_title: headwillcollapse.net - Earth Defense Force 
+page_title: Earth Defense Force 
 template: page.html
-tags: games,
-sub_title: Earth Defence Force
+tags: games
+sub_title: Earth Defense Force
+created: 2019-07-28 00:00:00
 
 #Earth Defense Force
 

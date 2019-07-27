@@ -1,7 +1,8 @@
-page_title: headwillcollapse.net - Hey 
+page_title: Hey 
 template: page.html
-tags: music,
+tags: music
 sub_title: Hey! by the Pixies
+created: 2019-07-24 00:00:00
 
 #Hey, been tryin' to meet you
 
