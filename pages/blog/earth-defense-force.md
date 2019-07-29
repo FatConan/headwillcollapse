@@ -4,7 +4,7 @@ tags: games
 sub_title: Earth Defense Force
 created: 2019-07-28 00:00:00
 
-#Earth Defense Force
+# Earth Defense Force
 
 ## "It's some sort of very huge bug!"
 

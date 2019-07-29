@@ -1,3 +1,5 @@
+import datetime
+
 class SiteExt:
     def get_tag_groups(self):
         blog = self.page_reference.get("/blog", [])
@@ -14,4 +16,5 @@ class SiteExt:
     def get_shortlist(self):
         blog = self.page_reference.get("/blog", [])
         hits = [(r, p) for r, p in blog if not p.data("index_page", False)]
+        hits = sorted(hits, key=lambda i: datetime.datetime.strptime(i[1].data("created"), '%Y-%m-%d %H:%M:%S'), reverse=True)
         return hits[:3]

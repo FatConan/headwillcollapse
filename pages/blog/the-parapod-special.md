@@ -4,7 +4,7 @@ sub_title: The Parapod Special
 tags: podcasts
 created: 2019-07-24 00:00:00
 
-#The Parapod Special
+# The Parapod Special
 
 After ten episodes in which comedians **Barry Dodds** and **Ian Boldsworth** debate the existence of the paranormal &mdash; each one centering around
 Barry's "haunting of the week" (or "Barry's fairytale" as Ian is want to call it) &mdash; the Parapod Christmas special shifted gears by taking the duo out of the studio and
