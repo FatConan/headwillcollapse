@@ -1,5 +1,7 @@
 {% extends "base.html" %}
-{% block navigation %}{%  endblock %}
+{% block navigation %}
+   {%  include "snippets/nav.html" %}
+{%  endblock %}
 {% block extension %}
     {{ content|safe }}
 {% endblock %}

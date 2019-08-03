@@ -190,6 +190,11 @@ section.content div.logo a{
     height: 100%;
 }
 
+.content img {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    width: 100%;
+}
+
 .content .footnote{
     border-top: 1px solid #e1e1e1;
     padding-top: 15px;
