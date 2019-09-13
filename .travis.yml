@@ -4,10 +4,10 @@ before_install:
 - openssl aes-256-cbc -K $encrypted_4c5200dd98e4_key -iv $encrypted_4c5200dd98e4_iv
   -in deploy_key.enc -out deploy_key -d
 - chmod 400 deploy_key
-- git clone --branch=master https://github.com/FatConan/sand.git
+- git clone --branch=master https://github.com/FatConan/sand.git sand-processor
 script:
 - cd $TRAVIS_BUILD_DIR
-- python sand/sand.py .
+- python sand-processor/sand.py .
 deploy:
   provider: script
   skip_cleanup: true
