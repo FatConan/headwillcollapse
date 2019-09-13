@@ -5,6 +5,8 @@ before_install:
   -in deploy_key.enc -out deploy_key -d
 - chmod 400 deploy_key
 - git clone --branch=master https://github.com/FatConan/sand.git sand-processor
+- cd sand-processor
+- pip install -r requirements.txt
 script:
 - cd $TRAVIS_BUILD_DIR
 - python sand-processor/sand.py .
