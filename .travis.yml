@@ -9,7 +9,6 @@ before_install:
 script:
 - cd $TRAVIS_BUILD_DIR
 - python sand/sand.py .
--
 deploy:
   provider: script
   skip_cleanup: true
