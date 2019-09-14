@@ -38,7 +38,7 @@ Now that it appears like a congruent entity I've found revisiting those movies I
 gaps in the characters and exposing those flaws that can't be explored to the same degree in the complexity of the later crossover films.
 
 We've watched them all numerous times now. In release order, in narrative chronology order, and randomly selected on a lazy afternoon.
-We've even thrown together a site to help us do it at [marvel.themonstrouscavalca.de](\\marvel.themonstrouscavalca.de).
+We've even thrown together a site to help us do it at [marvel.themonstrouscavalca.de](//marvel.themonstrouscavalca.de).
 
 I can't wait for the next phase to begin.
 
