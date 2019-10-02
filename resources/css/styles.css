@@ -25,6 +25,7 @@ em{
 a{
     color: #FF3D7F;
     text-decoration: none;
+    transition: font-weight .5s;
 }
 
 a:hover{
@@ -102,6 +103,7 @@ nav.main a {
     display: block;
     padding: 20px;
     font-size: 16pt;
+    transition: border-left-color .5s;
 }
 nav.main a:hover{
     border-left: 10px solid #FF3D7F;
@@ -250,6 +252,7 @@ footer{
     display: block;
     padding: 20px;
     font-size: 16pt;
+    transition: border-left-color .5s;
 }
 .tag-group a:hover{
     border-left: 10px solid #FF3D7F;
