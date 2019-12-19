@@ -1,7 +1,7 @@
 {   
     "sites": [
     {
-        "root": "headwillcollapse",
+        "root": ".",
         "pages": [
             {
                 "source": "pages/index.md",

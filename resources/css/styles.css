@@ -25,11 +25,12 @@ em{
 a{
     color: #FF3D7F;
     text-decoration: none;
-    transition: font-weight .5s;
+    transition: text-shadow .5s;
+    text-shadow: 1px 1px 0px #fff;
 }
 
 a:hover{
-    font-weight: bold;
+    text-shadow: 1px 1px 0px #FF3D7F;
 }
 
 header{
@@ -103,7 +104,7 @@ nav.main a {
     display: block;
     padding: 20px;
     font-size: 16pt;
-    transition: border-left-color .5s;
+    transition: border-left-color .5s, text-shadow .5s;
 }
 nav.main a:hover{
     border-left: 10px solid #FF3D7F;
@@ -252,7 +253,7 @@ footer{
     display: block;
     padding: 20px;
     font-size: 16pt;
-    transition: border-left-color .5s;
+    transition: border-left-color .5s, text-shadow .5s;
 }
 .tag-group a:hover{
     border-left: 10px solid #FF3D7F;
