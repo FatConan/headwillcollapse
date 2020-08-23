@@ -16,9 +16,9 @@ In fact my memories of the first time I saw any of those first five MCU films ar
 
 Then **The Avengers** came along.
 
-It made something click. For the first time they'd managed to throw more than two comic book characters on to film together
-and have it gel. Have it be, not just coherent, but comic and fun and frantic. It worked. And suddenly this collection
-of films that Marvel had been churning out had become a franchise, like Star Wars or Indiana Jones. These characters shared
+It made something click. For the first time they'd managed to throw more than two comic book characters on film together
+and have it gel. Have it be, not just coherent, but comic, and fun, and frantic. It worked. And suddenly this collection
+of films that Marvel had been churning out had become a franchise, like Star Wars or Indiana Jones. These characters' shared
 space and time would be henceforth intertwined in a way that I hadn't seen before.
 
 From there it started to snowball. Not straight away, I bounced off of **Iron Man 3**, and then **Winter Soldier**, but 

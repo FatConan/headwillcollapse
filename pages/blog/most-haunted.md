@@ -20,7 +20,7 @@ inevitably a bit peeved about the whole death thing &mdash; and over the course 
 is most definitely haunted because of all the noises, and objects being thrown into shot from just off camera.
 
 I think it goes without saying that it's staged, they specifically have to display a notice that the show is for entertainment purposes only
-before ever episode, but the cast and crew do their utmost to sell it as reality TV. And they always make a valiant effort,
+before every episode, but the cast and crew do their utmost to sell it as reality TV. And they always make a valiant effort,
 which is probably why I love their daft show so much. They manage to make an attempt at **Paranormal Activity** without 
 having a special effects budget, letting their screams and jump frights make up for the lack of fishing wires pulling open 
 cupboard doors.
