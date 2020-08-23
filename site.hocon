@@ -1,7 +1,7 @@
 {   
     "sites": [
     {
-        "root": "headwillcollapse",
+        "root": ".",
         "pages": [
             {
                 "source": "pages/index.md",
@@ -24,10 +24,10 @@
                 "source": "resources",
                 "target": "resources"
             },
-	    {
-		"source": "favicon.ico",
-		"target": "favicon.ico"
-	    }
+            {
+                "source": "favicon.ico",
+                "target": "favicon.ico"
+            }
         ]
     }
 ]}
