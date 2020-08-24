@@ -16,22 +16,22 @@ sort that might possibly be run by an creepy, elderly billionaire. Horzion binne
 From the first incarnation, Horizon threw off the shackles of audited loops built to specific regulations in favour of 
 running flat out on US highways, and doing donuts in town centres. After the first in series visited the US, the sequels touched 
 on Italy and Australia before the 4th installment landed in the UK.  While I thought the previous entries in the series were
-brilliant, the fact that the fourth's set in the UK &mdash; on this Festered Isle &mdash; that really made it stand out. 
+brilliant, the fact that the fourth's set in the UK &mdash; on this Festered Isle &mdash; really made it stand out. 
 It's also not just set in my homeland, but also in my home town: Edinburgh. 
 
 Edinburgh's a fantastic city, small and rocky, old and full of character. It also has terrible roads. Just awful. And I don't
-even drive. As I type this I'm sitting in my flat ad if you were to ask how to drive to my office from here I'd have absolutely
+even drive. As I type this I'm sitting in my flat and if you were to ask how to drive to my office from here I'd have absolutely
 no idea. Roads are closed, traffic's redirected; walking I'd have no problems, but directions by car? No clue.
 
 You might be tempted to use the extensive tram works as an exceptional circumstance to justify the situation, but really
 twas ever thus. I have, for the 22 years I've lived here, struggled to direct anyone to anywhere within the city with
-equal difficulty. Edinburgh is a city to navigate on foot; in a vehicle it's a nightmare. Not so in Horizon.
+unwavering difficulty. Edinburgh is a city to navigate on foot; in a vehicle it's a nightmare. Not so in Horizon.
 
 Horizon opens the city up, it cleverly squashes and stretches the familiar roads of the city so that the landmarks feel like
 they're situated where they belong, but it's sufficiently reconfigured that this simulacrum lends itself to exploration on four-wheels.
-It's not just the city, but the whole area it maps, Britain feels (in a reversal of reality) open.
+It's not just the city, but the whole area it maps, Britain feels (in a sad reversal of reality) open.
 
-This means that it's possible to blast of from Edinburgh castle, scream along the usually perplexing road layouts and rocket out of the city
+This means that it's possible to blast off from Edinburgh castle, scream along the usually perplexing road layouts, rocket out of the city
 and off towards the various Harry Potter filming locations of the Highlands in a supercar without ever once having to figure out 
 whether a particular road is one-way or not.
 
