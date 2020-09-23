@@ -260,9 +260,15 @@ footer{
     header,
     .content-wrapper{
         grid-template-columns: 1fr;
-        max-width: 95%;
+        width: auto;
         grid-gap: 0;
     }
+
+    header h1{
+        font-size: 30pt;
+    }
+
+
 
     section.navigation{
         grid-row: 2;
@@ -276,6 +282,18 @@ footer{
 }
 
 @media only screen and (max-width: 750px){
+    header h1{
+        font-size: 20pt;
+    }
+
+    section.content div.logo{
+        display: none;
+    }
+
+    section.content div.logo a{
+        display: none;
+    }
+
     .tag-group-collection{
         grid-template-columns: 1fr;
     }

@@ -27,6 +27,10 @@
             {
                 "source": "favicon.ico",
                 "target": "favicon.ico"
+            },
+            {
+                "source": ".htaccess"
+                "target": ".htaccess"
             }
         ]
     }
