@@ -18,7 +18,7 @@ has a number of successful and entertaining podcasts under his belt himself (I'l
 relaxed, daft and charming appearances on 
 "Stop Podcasting Yourself" are among my favourites. 
 
-It's difficult to pick an episode from his contributions (which you can [find here](https://spy-pod.themonstrouscavalca.de/guests/34881e6282658712184031b587fe810403a87a325b9fbcc9d81a9181.html))
+It's difficult to pick an episode from his contributions (which you can [find here](https://spy-pod.themonstrouscavalca.de/guests/paul-f-tompkins.html))
 but I've decided to go with episode 140 which features a section on knock-off toys and introduces the concept of "Doctor Zee-Ape" the knock-off version "Dr. Zaius" from Planet of the Apes
 which makes me laugh every time I hear it.
 
