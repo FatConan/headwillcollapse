@@ -175,6 +175,11 @@ section.content div.logo a{
     margin: 0 0 40px;
 }
 
+.content .content-warning{
+    color: #FF3D7F;
+    font-style: italic;
+}
+
 .content .audio{
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     background: #3fb8af;
@@ -255,6 +260,7 @@ footer{
 .tag-group a:hover{
     border-left: 10px solid #FF3D7F;
 }
+
 
 @media only screen and (max-width: 1024px){
     header,
