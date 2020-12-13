@@ -1,8 +1,12 @@
 import datetime
 from collections import OrderedDict
 
+VERSION = "2020.12.12.1"
 
 class SiteExt:
+    def get_version(self):
+        return VERSION
+
     def get_tag_groups(self):
         blog = self.page_reference.get("/blog", [])
         tag_groups = {}

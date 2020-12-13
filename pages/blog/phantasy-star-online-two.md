@@ -3,6 +3,7 @@ template: page.html
 tags: games
 sub_title: Phantasy Star Online 2
 created: 2020-08-23 00:00:00
+jinja_pass: True
 
 # Phantastic
 
@@ -48,5 +49,8 @@ Plus, my robot avater has a very good hat.
 [pso2]: /resources/img/pages/pso2.jpeg "Fatconan the behatted purple robots"
 [urgent]: /resources/img/pages/urgent.jpeg "An urgent mission in progress"
  
-
+{% with rating_class="COWBOY_HAT", rating="COWBOY HAT", 
+    blurb="The only take away is just how great this robot's hat is." %}
+    {% include "snippets/nass.html" %}
+{% endwith %}
  

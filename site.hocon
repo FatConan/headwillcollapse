@@ -4,8 +4,8 @@
         "root": ".",
         "pages": [
             {
-                "source": "pages/index.md",
-                "target": "index.html"
+                "source": "pages/*.md",
+                "target": "*.html"
             },
             {
                 "source": "pages/blog/*.md",
@@ -21,8 +21,21 @@
         ],
         "resources": [
             {
-                "source": "resources",
-                "target": "resources"
+                "source": "resources/img",
+                "target": "resources/img"
+            },
+            {
+                "source": "resources/scripts",
+                "target": "resources/scripts"
+            },
+            {
+                "source": "resources/css/*.css",
+                "target": "resources/css/*.css"
+            },
+            {
+                "source": "resources/css/styles.less"
+                "target": "resources/css/styles.css"
+                "resource_type": "less"
             },
             {
                 "source": "favicon.ico",
