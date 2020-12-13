@@ -6,9 +6,9 @@ jinja_pass: True
 
 # Nonsensical Arbitrary Scoring System 
 
-Here at HeadWillCollapse we've learned that you're not supposed to put any sort of game review
+Here at HeadWillCollapse we've learned that you're not supposed to put out any game review
 without some sort of accompanying objective rating system. We've therefore implemented the 
-N.A.S.S. a clever algorithm that can process the sentiment of the text and condense it down into
+N.A.S.S. a clever algorithm that can process the sentiment of text and condense it down into
 a single, encapsulating noun.
 
 As an example, running this page through our sophisticated rating process produces: 
