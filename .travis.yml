@@ -1,5 +1,5 @@
 language: python
-python: 3.5
+python: 3.8.5
 before_install:
 - openssl aes-256-cbc -K $encrypted_4c5200dd98e4_key -iv $encrypted_4c5200dd98e4_iv
   -in deploy_key.enc -out deploy_key -d
