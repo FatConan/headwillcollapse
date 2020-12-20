@@ -37,4 +37,23 @@
     .tag-group-collection{
         grid-template-columns: 1fr;
     }
+
+    section.nass .nass-inner{
+        padding: 20px 32px 20px 0;
+    }
+    section.nass .nass-text{
+        padding: 20px 52px 20px 20px;
+    }
+
+    section.nass .nass-rating{
+        float: right;
+        margin-right: -32px;
+    }
+
+    section.nass .nass-rating .rating{
+        width: 64px;
+        height: 64px;
+        border-radius: 50%;
+        margin-left: -10px;
+    }
 }

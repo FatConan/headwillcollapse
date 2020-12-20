@@ -9,10 +9,10 @@ created: 2020-08-23 00:00:00
 
 ## Forza Horizon 4 - Forza comes to Britain
 
-The Forza Horizon series is, in my opinion, a masterpiece. The orginal Forza games, while good racing simulations with plenty of
+The Forza Horizon series is, in my opinion, a masterpiece. The original Forza games, while good racing simulations with plenty of
 customisation options and the ability to design intricate decals for your vehicles, were always pretty straight-laced. There
 was plenty of fun to be had in racing, but it always felt like the sort of thing that had a governing body somewhere of the 
-sort that might possibly be run by an creepy, elderly billionaire. Horzion binned all that.
+sort that might possibly be run by a creepy, elderly billionaire. Horizon binned all that.
 
 From the first incarnation, Horizon threw off the shackles of audited loops built to specific regulations in favour of 
 running flat out on US highways, and doing donuts in town centres. After the first in series visited the US, the sequels touched 

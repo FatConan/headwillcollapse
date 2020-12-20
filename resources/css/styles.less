@@ -1,10 +1,30 @@
-/*
-green #3fb8af
-pink: #FF3D7F
- */
 @primary: #FF3D7F;
 @secondary: #3fb8af;
 @bodyText: #232323;
+
+.category{
+    background-size: 32px auto;
+    background-repeat: no-repeat;
+    background-position: center right 10px;
+    &.games{
+        background-image: url("/resources/img/categories/games.svg");
+    }
+    &.tv{
+        background-image: url("/resources/img/categories/tv.svg");
+    }
+    &.movies{
+        background-image: url("/resources/img/categories/movies.svg");
+    }
+    &.music{
+        background-image: url("/resources/img/categories/music.svg");
+    }
+    &.podcasts{
+        background-image: url("/resources/img/categories/podcast.svg");
+    }
+    &.places{
+        background-image: url("/resources/img/categories/places.svg");
+    }
+}
 
 body{
     font-family: 'KoHo', sans-serif;
@@ -249,7 +269,7 @@ footer{
 }
 
 .tag-title{
-    background: @secondary;
+    background-color: @secondary;
     color: #fff;
     font-weight: bold;
     padding: 5px 30px;
@@ -282,11 +302,11 @@ section.nass{
     .nass-text{
         background: @secondary;
         padding: 20px 95px 20px 20px;
-        border-radius: 20px 0 0 20px;
+        border-radius: 20px 0 20px 20px;
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 
         .text{
-            a {
+            a{
                 color: #fff;
                 font-size: 80%;
                 display: block;
@@ -320,15 +340,23 @@ section.nass{
     }
 }
 
-section.nass.POTATO .rating {
+section.nass.POTATO .rating{
     background-image: url("/resources/img/nass/potato.svg");
 }
-section.nass.ANTS .rating {
+
+section.nass.ANTS .rating{
     background-image: url("/resources/img/nass/ants.svg");
 }
-section.nass.COW_FARTS .rating {
+
+section.nass.COW_FARTS .rating{
     background-image: url("/resources/img/nass/cow_fart.svg");
 }
-section.nass.COWBOY_HAT .rating {
+
+section.nass.COWBOY_HAT .rating{
     background-image: url("/resources/img/nass/hat.svg");
+}
+
+section.nass.RAY_GUN .rating{
+    background-image: url("/resources/img/nass/ray_gun.svg");
+    background-size: 65% auto;
 }

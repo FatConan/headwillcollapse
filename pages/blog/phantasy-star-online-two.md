@@ -42,7 +42,7 @@ the Star Trek vision of a future space fleet where everyone's allowed to wear se
 Anyway, graphical gripes aside, PSO 2 is a really fun experience that I love not just for the nostalgic twitches it triggers
 in my brain, but also in and of itself as a game.
 
-Plus, my robot avater has a very good hat.  
+Plus, my robot avatar has a very good hat.  
 
 ![Fatconan, the behatted purple robot][pso2]
 

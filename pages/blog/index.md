@@ -12,7 +12,7 @@ jinja_pass: True
     {% for tag in tag_groups.keys() %}
         <div class="tag-group {{ tag }}">
             <div class="tag-group-inner">
-                <div class="tag-title">{{ tag }}</div>
+                <div class="tag-title {{ tag }}">{{ tag }}</div>
                 <ul>
                     {% for page in tag_groups[tag] %}
                         <li><a href="{{ page.target_url }}">{{ page.data("sub_title") }}</a></li>
