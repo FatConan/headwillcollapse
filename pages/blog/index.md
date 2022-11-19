@@ -8,7 +8,7 @@ jinja_pass: True
 # Brain Fillers
 
 <div class="tag-group-collection">
-    {% set tag_groups = GLOBALS["site"].get_tag_groups() %}
+    {% set tag_groups = HWC.TAG_GROUPS %}
     {% for tag in tag_groups.keys() %}
         <div class="tag-group {{ tag }}">
             <div class="tag-group-inner">

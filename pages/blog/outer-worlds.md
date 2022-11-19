@@ -46,7 +46,8 @@ The Outer Worlds is a wonderful piece of escapism for these troubled times, and 
 
 [outerworlds]: /resources/img/pages/outer-worlds.jpg "The Outer Worlds"
 
-{% with rating_class="RAY_GUN", rating="RAY GUN", 
-    blurb="It's a blast. This is a pun." %}
+<div>
+{% with rating_class="RAY_GUN", rating="RAY GUN", blurb="It's a blast. This is a pun." %}
     {% include "snippets/nass.html" %}
 {% endwith %}
+</div>

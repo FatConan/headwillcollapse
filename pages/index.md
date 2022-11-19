@@ -6,7 +6,7 @@ jinja_pass: True
 
 # Welcome
 
-This site is a repository of things [@fatconan](https://twitter.com/fatconan) desperately jams into his head in an effort to 
+This site is a repository of things [@fatconan](https://mastodon.scot/@fatconan) desperately jams into his head in an effort to
 keep it from collapsing in on itself like a sad soufflé. It's at least partially successful in that his mind hasn't yet 
 fully deflated. He hopes that others in similar situations to his, whose minds are equally leaky, find something here to 
 help counter the loss.
@@ -18,8 +18,10 @@ whomever reads this discovers they love them too.
 ## The latest 3 brain fillers
 <nav class="inline">
     <ul>
-    {% for page_path, page in GLOBALS["site"].get_shortlist() %}
-        <li><a href="{{ page.target_url }}">{{ page.data("sub_title", "Unknown") }}</a></li>
-    {% endfor %}
+    {% with shortlist=HWC.SHORTLIST %}
+        {% for page_path, page in shortlist %}
+            <li><a href="{{ page.target_url }}">{{ page.data("sub_title", "Unknown") }}</a></li>
+        {% endfor %}
+    {% endwith %}
     </ul>
 </nav>

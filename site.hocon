@@ -2,6 +2,9 @@
     "sites": [
     {
         "root": ".",
+        "plugins": [
+            "hwc"
+        ],
         "pages": [
             {
                 "source": "pages/*.md",
@@ -33,8 +36,8 @@
                 "target": "resources/css/*.css"
             },
             {
-                "source": "resources/css/styles.less"
-                "target": "resources/css/styles.css"
+                "source": "resources/css/styles.less",
+                "target": "resources/css/styles.css",
                 "resource_type": "less"
             },
             {
@@ -42,7 +45,7 @@
                 "target": "favicon.ico"
             },
             {
-                "source": ".htaccess"
+                "source": ".htaccess",
                 "target": ".htaccess"
             }
         ]

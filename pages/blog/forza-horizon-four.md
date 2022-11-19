@@ -43,7 +43,9 @@ but also thrilling and traversable, and it does without exhaust fumes, with mini
     <iframe width="560" height="315" src="https://www.youtube.com/embed/n9hO2l6Obxw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </div>
 
-{% with rating_class="POTATO", rating="POTATO", 
+<div>
+{% with rating_class="POTATO", rating="POTATO",
     blurb="Has the potential to be bland, but handled as deftly as this and it can be the best thing to ever come from the new world to Britain." %}
     {% include "snippets/nass.html" %}
 {% endwith %}
+</div>

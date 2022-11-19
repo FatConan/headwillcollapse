@@ -48,9 +48,10 @@ Plus, my robot avatar has a very good hat.
 
 [pso2]: /resources/img/pages/pso2.jpeg "Fatconan the behatted purple robots"
 [urgent]: /resources/img/pages/urgent.jpeg "An urgent mission in progress"
- 
-{% with rating_class="COWBOY_HAT", rating="COWBOY HAT", 
-    blurb="The only take away is just how great this robot's hat is." %}
+
+<div>
+{% with rating_class="COWBOY_HAT", rating="COWBOY HAT", blurb="The only take away is just how great this robot's hat is." %}
     {% include "snippets/nass.html" %}
 {% endwith %}
+</div>
  

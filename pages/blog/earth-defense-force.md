@@ -37,7 +37,8 @@ If you aren't familiar with it I suggest you immediately rectify that situation.
 
 [EDF! EDF! EDF!](https://store.playstation.com/en-gb/product/EP3036-CUSA12504_00-EDF5MASTERPKG000)
 
-{% with rating_class="ANTS", rating="ANTS", 
-    blurb="Ants! Ants! Ants! Ants! Annnnnnnnts! ANTS!" %}
+<div>
+{% with rating_class="ANTS", rating="ANTS", blurb="Ants! Ants! Ants! Ants! Annnnnnnnts! ANTS!" %}
     {% include "snippets/nass.html" %}
 {% endwith %}
+</div>
