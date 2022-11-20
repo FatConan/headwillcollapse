@@ -15,7 +15,7 @@ FatConan is usually somewhat of an anode insofar as he spews a lot of negativity
 in his otherwise miserable, contrarian existence. Everything here is here because he genuinely loves them, and he hopes that
 whomever reads this discovers they love them too. 
 
-## The latest 3 brain fillers
+## The latest brain fillers
 <nav class="inline">
     <ul>
     {% with shortlist=HWC.SHORTLIST %}
