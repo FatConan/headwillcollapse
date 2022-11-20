@@ -19,14 +19,18 @@ While the barren, unforgiving, but beautiful icescape seemingly conspires to fre
 starve them to death, the crews also face dangers of their own making from their poisonous and rotting
 rations, to predators that hide in their midst.
 
-Meanwhile their presence in the Arctic appears to have brought the ire of Tuunbaq, a supposed supernatural entity in the
-form of a great Polar Bear capable of easily disemembering a person, and of possibly consuming their soul.
+Meanwhile, their presence in the Arctic appears to have brought the ire of Tuunbaq, a supposed supernatural entity in the
+form of a great Polar Bear capable of easily dismembering a person, and of possibly consuming their soul.
 How much of the paranormal goings-on are the result of genuine malediction, and how much resides only in the
-tainted and poisoned minds of the crew is unclear. Which of the terrors is greater, those from without or those from within,
-by the end of the series it's impossible to determine.
+tainted and poisoned minds of the crew is unclear; which of the terrors is greater, those from without or those from within,
+is a struggle the crew are forced to deal with again and again.
 
-The Terror is a brilliant horror, with a great cast and a raft of characters who range from loveable to detestable, and who are as
-complex as they are engaging. The Terror is a gripping, tense and tragic drama that rewards repeated viewings.
+The show splits its locations between the claustrophobia of the cramped ships, and the agoraphobia of the desolate Arctic.
+Neither place feels safe, and threat and fear permeate every scene. All of it drives desperation and challenges even the most 
+level-headed of characters to maintain any sense of equilibrium.
+
+The Terror is a brilliant horror, with a great cast and a raft of characters who range from admirable to detestable, and who are as
+complex as they are engaging. It is a gripping, tense and tragic drama that absolutely rewards repeated viewings.
 
 The Terror is available on [Shudder](https://www.amazon.co.uk/gp/video/detail/B07KX75G2P).
 

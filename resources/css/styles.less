@@ -186,7 +186,13 @@ section.content{
         font-weight: bold;
     }
     h3{
+        color: @primary;
+        font-weight: bold;
         margin-bottom: 1em;
+    }
+    h4 {
+        font-style: italic;
+        color: @secondary;
     }
     .youtube-holder{
         box-sizing: border-box;
@@ -340,23 +346,107 @@ section.nass{
     }
 }
 
-section.nass.POTATO .rating{
-    background-image: url("/resources/img/nass/potato.svg");
+.audio-player{
+    display: grid;
+    grid-template-rows: 40px;
+    grid-template-columns: 40px auto;
+    grid-gap: 10px;
+    margin: 1em 0;
+
+
+    .btn{
+        cursor: pointer;
+        display: block;
+        height: 40px;
+        width: 40px;
+        border-radius: 20px;
+        background-color: @primary;
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: 24px auto;
+        border: 0;
+        overflow: hidden;
+        text-indent: -9999px;
+
+        &:active{
+            box-shadow: 0 0 5px #000 inset;
+        }
+
+        &.mini{
+            display: inline-block;
+            height: 28px;
+            width: 28px;
+            border-radius: 14px;
+            background-color: @secondary;
+        }
+
+        &.mute{
+            background-size: 16px auto;
+            background-image: url("/resources/img/components/mute.svg");
+            &.muted{
+                background-image: url("/resources/img/components/unmute.svg");
+            }
+        }
+
+        &.play{
+            background-image: url("/resources/img/components/play.svg");
+            &.paused{
+                background-image: url("/resources/img/components/pause.svg");
+            }
+        }
+    }
+
+    audio {
+        display: none;
+    }
+    .timing{
+        font-size: 60%;
+        padding: 0 .5em;
+        &.joiner{
+            padding: 0;
+        }
+    }
+    .timeline {
+        display: block;
+        width: 100%;
+        background-color: #fff;
+        background-size: 0% 100%;
+        background-repeat: no-repeat;
+        background-image: linear-gradient(@secondary, @secondary);
+        border-radius: 5px;
+        height: 10px;
+        border: 1px solid @secondary;
+        cursor: pointer;
+    }
+
 }
 
-section.nass.ANTS .rating{
-    background-image: url("/resources/img/nass/ants.svg");
+section.nass {
+    &.POTATO .rating{
+        background-image: url("/resources/img/nass/potato.svg");
+    }
+    &.ANTS .rating{
+        background-image: url("/resources/img/nass/ants.svg");
+    }
+    &.COW_FARTS .rating{
+        background-image: url("/resources/img/nass/cow_fart.svg");
+    }
+    &.COWBOY_HAT .rating{
+        background-image: url("/resources/img/nass/hat.svg");
+    }
+    &.RAY_GUN .rating{
+        background-image: url("/resources/img/nass/ray_gun.svg");
+        background-size: 65% auto;
+    }
+    &.GEORGE_BUSH .rating{
+        background-image: url("/resources/img/nass/george_bush.svg");
+    }
 }
 
-section.nass.COW_FARTS .rating{
-    background-image: url("/resources/img/nass/cow_fart.svg");
-}
-
-section.nass.COWBOY_HAT .rating{
-    background-image: url("/resources/img/nass/hat.svg");
-}
-
-section.nass.RAY_GUN .rating{
-    background-image: url("/resources/img/nass/ray_gun.svg");
-    background-size: 65% auto;
+img {
+    &[src="/resources/img/pages/Paul_F_Tompkins.jpg"]{
+        width: 200px;
+        float: right;
+        margin: 10px;
+    }
 }
