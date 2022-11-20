@@ -70,5 +70,8 @@ a lot of princesses with truly terrible fathers.
     {% endwith %}
 </div>
 
+If you'd like to listen to all the episodes I built a quick and dirty [index site](https://deadauthors-pod.themonstrouscavalca.de/) of all the 
+podcasts that you can browse chronologically or by guest (both actor and author).
+
 [pft]: /resources/img/pages/Paul_F_Tompkins.jpg "Paul F. Tompkins"
 
