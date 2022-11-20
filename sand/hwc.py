@@ -26,7 +26,7 @@ class Plugin:
             else:
                 h.created = datetime.datetime.today()
         hits = sorted(hits, key=lambda i: i[1].created, reverse=True)
-        return hits[:3]
+        return hits[:5]
 
     def configure(self, site_data, site):
         self.site = site
