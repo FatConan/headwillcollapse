@@ -1,6 +1,6 @@
 page_title: The Dead Authors Podcast
 template: page.html
-tags: podcast
+tags: podcasts
 sub_title: The Dead Authors Podcast
 created: 2022-11-19 23:10:00
 jinja_pass: True
