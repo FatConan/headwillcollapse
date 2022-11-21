@@ -28,7 +28,7 @@ fun at the show for its flaws and missteps, but also genuinely celebrating it wh
 
 It's both a lighthearted ribbing and considered critique of a dated, but much loved show, and it would be fine if that
 was all it was, but to the credit of Russ &amp; Mark the research they do and the effort they go to chase down
-the story of the technologies after the cameras stop rolling really makes the whole discussion richer.
+the story of the technologies after the cameras stop that serves to enrich the discussion further.
 
 It's a terrible shame that Tomorrow's World ended in 1999 after some 35 years, but it's great to spend some
 extended time with it again, picking apart the hits and misses of its run in the presence of two funny and
