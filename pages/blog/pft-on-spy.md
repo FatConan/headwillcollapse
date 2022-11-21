@@ -8,7 +8,7 @@ created: 2019-07-26 00:00:00
 # P.F.T on S.P.Y
 
 "Stop Podcasting Yourself" is one of Canada's, and probably the world's, longest running podcasts. Podcasters 
-[Dave Schumka](https://twitter.com/daveshumka) and [Graham Clark](https://twitter.com/grahamclark) have been putting out 
+[Dave Shumka](https://twitter.com/daveshumka) and [Graham Clark](https://twitter.com/grahamclark) have been putting out 
 an episode a week for eleven years, as well as various specials and live performances, and as they cruise towards the six-hundredth episode 
 they have amassed a collection of hilarious recordings in their archives.
 
