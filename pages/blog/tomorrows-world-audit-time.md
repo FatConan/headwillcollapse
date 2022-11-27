@@ -22,7 +22,7 @@ having to shout to camera over deafeningly loud machinery.
 
 The pair tally up the tropes, discuss the presentation and validity of the demonstrations (something which fails more
 frequently than you might expect) and follow up on what happened next whenever they're able. A lot of the technologies
-featured pretty much sink without a trace, but every once in a while something is show that was revolutionary in
+featured pretty much sink without a trace, but every once in a while something is shown that was revolutionary in
 some way or another, which is immensely satisfying. They also bring a lot of humour to the fray, poking good-natured
 fun at the show for its flaws and missteps, but also genuinely celebrating it when it does things well.
 
