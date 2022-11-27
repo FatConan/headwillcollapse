@@ -13,7 +13,7 @@ jinja_pass: True
 
 **Gears of War** is exactly the sort of series that shouldn't, on paper at least, appeal to me. A ridiculously macho nonsense
 in which an array of increasingly large and uncharismatic men run about in suits of power armour,
-hiding behind a series of low walls, and shooting aliens in while spitting terrible lines of dialogue at each other.
+hiding behind a series of low walls, and shooting aliens in the face while spitting terrible lines of dialogue at each other.
 Its characters' designs and personas are the sort of bulky charmless entities a scrawny teenager might invent in the
 back of an exercise book while entertaining thoughts of revenge against school bullies.
 
