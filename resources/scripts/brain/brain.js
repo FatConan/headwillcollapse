@@ -30,8 +30,6 @@ define(["jquery", "d3", "delaunay"], function($, d3, Delaunay){
         }
 
     resetCanvas(canvas){
-
-
         //The actual canvas where we'll draw our stuff
         this.canvas = d3.select(canvas);
             this.canvas.html("");
@@ -41,7 +39,7 @@ define(["jquery", "d3", "delaunay"], function($, d3, Delaunay){
             .attr("width", canvasWidth)
             .attr("height", canvasHeight)
             .append("g")
-        }
+    }
 
     drawCircle(container, node, radius, fill){
         return container.append("circle")
@@ -156,6 +154,7 @@ define(["jquery", "d3", "delaunay"], function($, d3, Delaunay){
                     if(brain.transitionResetTimeout){
                         clearTimeout(brain.transitionResetTimeout);
                     }
+
                     let el = d3.select(this);
                     let cInd = brain.colorCycle++ % brain.rainbowColors.length;
                     let color = brain.rainbowColors[cInd];
@@ -174,13 +173,11 @@ define(["jquery", "d3", "delaunay"], function($, d3, Delaunay){
                     }
                     el.transition()
                         .duration(200)
-                        .style("fill", "transparent")
                         .style("stroke", color);
 
                     brain.transitionResetTimeout = setTimeout(function(){this.resetTransition();}.bind(brain), 2000);
                 };
             }.bind(this)();
-
             const noop = function(){
 
             }
