@@ -29,10 +29,22 @@
 body{
     font-family: 'KoHo', sans-serif;
     font-size: 18pt;
-    background: #e1e1e1 url(/resources/img/brain.svg) top -200px left -100px no-repeat;
-    background-size: 1000px auto;
+    //background: #e1e1e1 url(/resources/img/brain.svg) top -200px left -100px no-repeat;
+    //background-size: 1000px auto;
+    background: #e1e1e1;
     color: @bodyText;
     box-sizing: border-box;
+}
+
+#big-brain{
+    position: fixed;
+    top: -200px;
+    left: -100px;
+    height: 1000px;
+    width: 1000px;
+    padding: 0;
+    margin: 0;
+    z-index: 0;
 }
 
 strong{
@@ -73,6 +85,8 @@ header{
         font-weight: bold;
         color: @primary;
         padding: 15px 20px 0;
+        position: relative;
+        z-index: 1;
     }
 
     h2{
@@ -84,6 +98,8 @@ header{
         padding: 15px 20px 15px;
         font-size: 30pt;
         font-weight: bold;
+        position: relative;
+        z-index: 1;
     }
 }
 
@@ -106,6 +122,8 @@ nav.main{
     overflow: hidden;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     box-sizing: border-box;
+    position: relative;
+    z-index: 1;
     h3{
         font-family: 'Yanone Kaffeesatz', sans-serif;
         padding: 0 0 15px 0;
@@ -141,11 +159,13 @@ section.content{
     box-sizing: border-box;
     line-height: 1.6;
 
-    div.content-inner{
+     div.content-inner{
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
         background: rgba(255, 255, 255, 0.9);
         padding: 40px;
         box-sizing: border-box;
+        z-index: 1;
+        position: relative;
     }
 
     div.logo{
@@ -155,13 +175,18 @@ section.content{
         a{
             display: block;
             box-sizing: border-box;
-            background: url(/resources/img/brain-alt.svg) center center no-repeat;
-            background-size: 180px auto;
-            width: 180px;
-            height: 180px;
+            //background: url(/resources/img/brain-alt.svg) center center no-repeat;
+            //background-size: 180px auto;
+            //width: 180px;
+            //height: 180px;
             border: 0;
             overflow: hidden;
-            text-indent: -9999px;
+            position: relative;
+
+            #little-brain{
+                width: 180px;
+                height: 180px;
+            }
         }
     }
 }

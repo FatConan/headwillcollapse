@@ -1,7 +1,6 @@
 requirejs(["build"], function(){
     'use strict';
-    requirejs(["jquery"], function ($){
-
+    requirejs(["jquery", "./brain/brain"], function ($, brainWriter){
         class AudioPlayer{
             constructor(audioWrapper){
                 this.audioWrapper = $(audioWrapper);
@@ -117,12 +116,22 @@ requirejs(["build"], function(){
             }
 
             players(){
-                for(let el of this.elements){
-                    this.playerCollection.push(new AudioPlayer($(el)));
+                if(this.elements){
+                    for(let el of this.elements){
+                        this.playerCollection.push(new AudioPlayer($(el)));
+                    }
                 }
             }
         };
 
         const audio = new AudioPlayers();
+        fetch("/resources/data/brain.json")
+            .then(response => response.json())
+            .then(jsonObject => {
+                brainWriter(jsonObject, "#big-brain",
+                    {width: 1000, height: 1000, mainBackground: "#3FB8AF"});
+                brainWriter(jsonObject, "#little-brain",
+                    {width: 180, height: 180, mainBackground: "#FF3D7F"});
+            });
     });
 });

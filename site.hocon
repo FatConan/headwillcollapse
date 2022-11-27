@@ -24,6 +24,10 @@
         ],
         "resources": [
             {
+                "source": "resources/data",
+                "target": "resources/data"
+            },
+            {
                 "source": "resources/img",
                 "target": "resources/img"
             },

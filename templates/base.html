@@ -11,6 +11,7 @@
     </head>
     <body>
         <div class="body-wrapper">
+            <div id="big-brain"></div>
             <header>
                 <div>
                     <h1><a href="/">headwillcollapse.net</a></h1>
@@ -21,7 +22,9 @@
                 {% block navigation %}{%  endblock %}
                 <section class="content {{ extended_classes }}">
                     <div class="content-inner">
-                        <div class="logo"><a href="/">Headwillcollapse</a></div>
+                        <div class="logo">
+                            <a href="/"><div id="little-brain"></div></a>
+                        </div>
                         {% block extension %}{% endblock %}
                     </div>
                 </section>
