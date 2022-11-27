@@ -6,6 +6,7 @@ define(["jquery", "d3", "delaunay"], function($, d3, Delaunay){
             this.mainBackground = options.mainBackground;
             this.height = options.height || 500;
             this.width = options.width || 500;
+            this.responsive = options.responsive || false;
             this.pointSize = options.pointSize || 5;
             this.strokeWidth = options.strokeWidth || 3;
             this.scaleX = options.width/500;
@@ -42,7 +43,7 @@ define(["jquery", "d3", "delaunay"], function($, d3, Delaunay){
             .append("g")
         }
 
-    drawCircle(container, node, radius, fill, onmouseover, onmouseout){
+    drawCircle(container, node, radius, fill){
         return container.append("circle")
                 .attr("cx", node.x)
                 .attr("cy", node.y)
@@ -177,7 +178,6 @@ define(["jquery", "d3", "delaunay"], function($, d3, Delaunay){
                         .style("stroke", color);
 
                     brain.transitionResetTimeout = setTimeout(function(){this.resetTransition();}.bind(brain), 2000);
-
                 };
             }.bind(this)();
 
@@ -201,11 +201,15 @@ define(["jquery", "d3", "delaunay"], function($, d3, Delaunay){
                 let A = this.scale(triangles[i]);
                 let B = this.scale(triangles[i+1]);
                 let C = this.scale(triangles[i+2]);
-                this.triangles.push(this.drawTriangle(container, A, B, C, this.strokeWidth * this.scaleX, onmouseover, noop));
+                let action = noop;
+                if(this.responsive){
+                    action = onmouseover;
+                }
+                this.triangles.push(this.drawTriangle(container, A, B, C, this.strokeWidth * this.scaleX, action, noop));
             }
 
             for(let n of processedPoints){
-                this.circles[`${n.x}:${n.y}`] = this.drawCircle(container, n, this.pointSize * this.scaleX, "#fff", onmouseover, onmouseout);
+                this.circles[`${n.x}:${n.y}`] = this.drawCircle(container, n, this.pointSize * this.scaleX, "#fff");
             }
         }
 

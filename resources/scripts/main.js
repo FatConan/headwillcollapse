@@ -129,7 +129,7 @@ requirejs(["build"], function(){
             .then(response => response.json())
             .then(jsonObject => {
                 brainWriter(jsonObject, "#big-brain",
-                    {width: 1000, height: 1000, mainBackground: "#3FB8AF"});
+                    {width: 1000, height: 1000, mainBackground: "#3FB8AF", responsive:true});
                 brainWriter(jsonObject, "#little-brain",
                     {width: 180, height: 180, mainBackground: "#FF3D7F"});
             });
