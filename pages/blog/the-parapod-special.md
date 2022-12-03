@@ -23,13 +23,5 @@ timely and comedic ways to let that tension out again.
 
 The Parapod is always an enjoyable listen, but this Christmas special distinguishes itself as one of the best
 podcasts I've heard.
-
-<div class="soundcloud-holder">
-<iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/237746862&color=%233fb8af&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
-</div>
-
-<div class="soundcloud-holder">
-<iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/238194679&color=%233fb8af&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true"></iframe>
-</div>
   
 <div class="footnote">The Parapod can be found at <a target="_blank" href="https://theparapod.com/">theparapod.com</a> along with the trailer for the upcoming Parapod movie.</div>
