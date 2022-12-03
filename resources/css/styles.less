@@ -240,19 +240,6 @@ section.content{
         font-style: italic;
     }
 
-    .audio{
-        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-        background: @secondary;
-        margin: 0 0 40px;
-        padding: 10px;
-        box-sizing: border-box;
-
-        audio{
-            width: 100%;
-            box-sizing: border-box;
-        }
-    }
-
     .youtube-holder iframe{
         box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
         position: absolute;
@@ -289,9 +276,9 @@ footer{
 .tag-group-collection{
     box-sizing: border-box;
     width: 100%;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-gap: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
 }
 
 .tag-group-inner{
@@ -307,6 +294,7 @@ footer{
 }
 
 .tag-group{
+    flex-grow: 2;
     padding: 20px;
     box-sizing: border-box;
 
@@ -425,6 +413,7 @@ section.nass{
         display: none;
     }
     .timing{
+        font-family: Monospace;
         font-size: 60%;
         padding: 0 .5em;
         &.joiner{
@@ -473,5 +462,10 @@ img {
         width: 200px;
         float: right;
         margin: 10px;
+    }
+    &[src="/resources/img/pages/sheep.jpg"]{
+        width: 350px;
+        float: left;
+        margin: 10px 30px 10px 0;
     }
 }

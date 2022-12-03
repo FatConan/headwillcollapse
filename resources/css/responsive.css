@@ -34,10 +34,6 @@
         display: none;
     }
 
-    .tag-group-collection{
-        grid-template-columns: 1fr;
-    }
-
     section.nass .nass-inner{
         padding: 20px 32px 20px 0;
     }

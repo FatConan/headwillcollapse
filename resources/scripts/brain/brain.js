@@ -170,14 +170,13 @@ define(["jquery", "d3", "delaunay"], function($, d3, Delaunay){
                             .duration(200)
                             .style("fill", color);
                     }
-                    el.transition()
+ el.transition()
                         .duration(200)
                         .style("stroke", color);
 
                     brain.transitionResetTimeout = setTimeout(function(){this.resetTransition();}.bind(brain), 2000);
                 };
             }.bind(this)();
-
             const noop = function(){
 
             }
