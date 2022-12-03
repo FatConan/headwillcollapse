@@ -16,11 +16,11 @@ It's oddly nervewracking, something like a job interview, where you hope you've 
 
 **The Sheep of Sherringale** is a short adventure I put together inspired by [A Wild Sheep Chase](https://winghornpress.com/adventures/a-wild-sheep-chase/),
 but this time designed to be the introduction of my four person group to the world of D&amp;D; the first many of them had experienced of it.
-It involved the charcters of the party finding themselves wandering into a small, but bustling, market town within which they happen upon a very
+It involved the characters of the party finding themselves wandering into a small, but bustling, market town within which they happen upon a very
 strange sheep. It leads them on and adventure that sees them discover an unfortunate wizard, some lucky, but deeply unpleasant goblins,
 and an unexpectedly powerful wand. Re-reading it recently, I can see how much I'd overthought it, trying to predict everything that they might
 try and noting at least some means of dealing with it. It's a fool's errand really, I've learned they'll always unexpectedly find the gap in
-your planning and drive straight through it regardless of number of notes you've made in adavance.
+your planning and drive straight through it regardless of the number of notes you've made in adavance.
 
 I shouldn't have worried; everybody had fun.
 
