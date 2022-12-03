@@ -15,7 +15,6 @@ define(["jquery", "d3", "delaunay"], function($, d3, Delaunay){
             this.svg = null;
             this.colorCycle = 0;
 
-
             this.rainbowColors = [
                 "#ff6666", "#ff9864", "#ffcb64", "#fffe64",
                 "#ccfe64", "#7ffe64", "#66fe7e", "#66feb1",
@@ -29,28 +28,28 @@ define(["jquery", "d3", "delaunay"], function($, d3, Delaunay){
             this.transitionResetTimeout;
         }
 
-    resetCanvas(canvas){
-        //The actual canvas where we'll draw our stuff
-        this.canvas = d3.select(canvas);
-            this.canvas.html("");
-            let canvasWidth = this.width;
-            let canvasHeight = this.height;
-            this.svg = this.canvas.append("svg")
-            .attr("width", canvasWidth)
-            .attr("height", canvasHeight)
-            .append("g")
-    }
+        resetCanvas(canvas){
+            //The actual canvas where we'll draw our stuff
+            this.canvas = d3.select(canvas);
+                this.canvas.html("");
+                let canvasWidth = this.width;
+                let canvasHeight = this.height;
+                this.svg = this.canvas.append("svg")
+                .attr("width", canvasWidth)
+                .attr("height", canvasHeight)
+                .append("g")
+        }
 
-    drawCircle(container, node, radius, fill){
-        return container.append("circle")
-                .attr("cx", node.x)
-                .attr("cy", node.y)
-                .attr("r", radius)
-                .style("stroke", "transparent")
-                .style("fill", fill);
-    }
+        drawCircle(container, node, radius, fill){
+            return container.append("circle")
+                    .attr("cx", node.x)
+                    .attr("cy", node.y)
+                    .attr("r", radius)
+                    .style("stroke", "transparent")
+                    .style("fill", fill);
+        }
 
-    drawTriangle(container, node1, node2, node3, strokeWidth, onmouseover, onmouseout){
+        drawTriangle(container, node1, node2, node3, strokeWidth, onmouseover, onmouseout){
             let points = `${node1[0].x},${node1[0].y},${node1[1].x},${node1[1].y},`
                 + `${node2[0].x},${node2[0].y},${node2[1].x},${node2[1].y},`
                 + `${node3[0].x},${node3[0].y},${node3[1].x},${node3[1].y}`;
@@ -74,38 +73,38 @@ define(["jquery", "d3", "delaunay"], function($, d3, Delaunay){
                 .on("mouseout", onmouseout);
         }
 
-    alphaShape(pts, alpha, onlyOuter){
-            if(onlyOuter === null){
-                onlyOuter = true;
+        alphaShape(pts, alpha, onlyOuter){
+                if(onlyOuter === null){
+                    onlyOuter = true;
+                }
+
+            if(pts.length <= 3){
+                /* Need at least four points */
+                return null;
             }
 
-        if(pts.length <= 3){
-            /* Need at least four points */
-            return null;
-        }
+            let delaunay = new Delaunay(pts);
+            let triangles = delaunay.triangulate();
 
-        let delaunay = new Delaunay(pts);
-        let triangles = delaunay.triangulate();
+            let edges = [];
+            for(let i=0; i<triangles.length; i+=3){
+                let pa = triangles[i];
+                let pb = triangles[i+1];
+                let pc = triangles[i+2];
 
-        let edges = [];
-        for(let i=0; i<triangles.length; i+=3){
-            let pa = triangles[i];
-            let pb = triangles[i+1];
-            let pc = triangles[i+2];
-
-            let a = Math.sqrt((pa.x - pb.x) ** 2 + (pa.y - pb.y) ** 2);
-            let b = Math.sqrt((pb.x - pc.x) ** 2 + (pb.y - pc.y) ** 2);
-            let c = Math.sqrt((pc.x - pa.x) ** 2 + (pc.y - pa.y) ** 2);
-            let s = (a + b + c) / 2.0;
-            let area = Math.sqrt(s * (s - a) * (s - b) * (s - c));
-            let circum_r = a * b * c / (4.0 * area);
-            if(circum_r < alpha){
-                this.addEdge(edges, pa, pb, onlyOuter);
-                this.addEdge(edges, pb, pc, onlyOuter);
-                this.addEdge(edges, pc, pa, onlyOuter);
+                let a = Math.sqrt((pa.x - pb.x) ** 2 + (pa.y - pb.y) ** 2);
+                let b = Math.sqrt((pb.x - pc.x) ** 2 + (pb.y - pc.y) ** 2);
+                let c = Math.sqrt((pc.x - pa.x) ** 2 + (pc.y - pa.y) ** 2);
+                let s = (a + b + c) / 2.0;
+                let area = Math.sqrt(s * (s - a) * (s - b) * (s - c));
+                let circum_r = a * b * c / (4.0 * area);
+                if(circum_r < alpha){
+                    this.addEdge(edges, pa, pb, onlyOuter);
+                    this.addEdge(edges, pb, pc, onlyOuter);
+                    this.addEdge(edges, pc, pa, onlyOuter);
+                }
             }
-        }
-        return edges;
+            return edges;
         }
 
         addEdge(edges, i, j, onlyOuter){
@@ -178,6 +177,7 @@ define(["jquery", "d3", "delaunay"], function($, d3, Delaunay){
                     brain.transitionResetTimeout = setTimeout(function(){this.resetTransition();}.bind(brain), 2000);
                 };
             }.bind(this)();
+
             const noop = function(){
 
             }
