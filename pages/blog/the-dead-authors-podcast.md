@@ -60,7 +60,7 @@ times in the face of his ludicrous assault. Just fantastic.
 
 ### E. Gary Gygax (Chris Tallman)
 
-Chris Tallman in the guise of E. Gary Gygax the creator of Dungeons &map; Dragons engages in some unnecessarily horny role-playing with H. G. Wells.
+Chris Tallman in the guise of E. Gary Gygax the creator of Dungeons &amp; Dragons engages in some unnecessarily horny role-playing with H. G. Wells.
 Featuring plenty of content from the monster manual, a wiley rogue attempting to outmaneuver a spider web, and
 a lot of princesses with truly terrible fathers.
 
