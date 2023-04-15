@@ -7,7 +7,7 @@ jinja_pass: True
 
 # The Dead Authors Podcast
 
-## Stiches In Time
+## Stitches In Time
 
 **The Dead Author's Podcast** is a rare gem; a short-lived (in podcast terms) series recorded in front of a live audience in which
 the excellent Paul F. Tompkins &mdash; playing the role of writer and time-traveler H. G. Wells &mdash; uses his famed time machine to collect now-deceased
