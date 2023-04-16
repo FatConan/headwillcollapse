@@ -3,7 +3,7 @@
     {
         "root": ".",
         "plugins": [
-            "hwc"
+            "hwc", "rss"
         ],
         "pages": [
             {
