@@ -33,7 +33,7 @@ class Plugin:
     def parse(self, site_data, site):
         rss_content = self.get_blog_pages()
         out_path = "./rss.xml"
-        page_dict = {'source': None, 'target': out_path}
+        page_dict = {'source': None, 'target': out_path, "page_type": "RAW"}
         page_dict["config"] = {
             "jinja_pass": False,
             "is_index": False,
