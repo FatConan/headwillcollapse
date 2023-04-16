@@ -8,7 +8,7 @@ class Plugin:
         blog_items = []
         for route, page in blog:
             item = rfeed.Item(
-                title = page.data("title"),
+                title = page.data("page_title"),
                 link = "https://headwillcollapse.net/blog/%s" % (route, ),
                 description = page.data("sub_title"),
                 pubDate = datetime.datetime.strptime(page.data("created"), '%Y-%m-%d %H:%M:%S'),
