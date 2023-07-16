@@ -36,6 +36,10 @@
                 "target": "resources/scripts"
             },
             {
+                "source": "resources/robots.txt",
+                "target": "robots.txt"
+            },
+            {
                 "source": "resources/css/*.css",
                 "target": "resources/css/*.css"
             },
