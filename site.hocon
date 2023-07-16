@@ -40,6 +40,10 @@
                 "target": "robots.txt"
             },
             {
+                "source": "resources/waybackverify.txt",
+                "target": "waybackverify.txt"
+            },
+            {
                 "source": "resources/css/*.css",
                 "target": "resources/css/*.css"
             },
