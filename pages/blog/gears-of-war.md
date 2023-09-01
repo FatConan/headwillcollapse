@@ -1,4 +1,4 @@
-page_title: Gears of War
+title: Gears of War
 template: page.html
 tags: games
 sub_title: Gears of War

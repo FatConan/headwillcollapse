@@ -1,4 +1,4 @@
-page_title: The Parapod Special
+title: The Parapod Special
 template: page.html
 sub_title: The Parapod Special
 tags: podcasts

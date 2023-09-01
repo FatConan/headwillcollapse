@@ -1,4 +1,4 @@
-page_title: Paul F Tompkins on Stop Podcasting Yourself
+title: Paul F Tompkins on Stop Podcasting Yourself
 template: page.html
 tags: podcasts
 sub_title: P.F.T on S.P.Y

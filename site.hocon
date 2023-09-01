@@ -5,6 +5,7 @@
         "plugins": [
             "hwc", "rss"
         ],
+        "domain": "https://headwillcollapse.net"
         "pages": [
             {
                 "source": "pages/*.md",
@@ -12,7 +13,10 @@
             },
             {
                 "source": "pages/blog/*.md",
-                "target": "blog/*.html"
+                "target": "blog/*.html",
+                "config": {
+                  "rss": true
+                }
             },
             {
                 "source": "pages/errors/*.md",

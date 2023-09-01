@@ -1,8 +1,9 @@
-page_title: Brain Fillers 
+title: Brain Fillers 
 template: page.html
 sub_title: Brain Fillers
 index_page: True
 jinja_pass: True
+rss: false
 
 
 # Brain Fillers

@@ -4,6 +4,7 @@ sub_title: Nonsensical Arbitrary Scoring System
 created: 2019-07-24 00:00:00
 jinja_pass: True
 
+
 # Nonsensical Arbitrary Scoring System 
 
 Here at HeadWillCollapse we've learned that you're not supposed to put out any game review

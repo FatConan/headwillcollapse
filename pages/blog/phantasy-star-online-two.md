@@ -1,4 +1,4 @@
-page_title: Phantasy Star Online 2
+title: Phantasy Star Online 2
 template: page.html
 tags: games
 sub_title: Phantasy Star Online 2

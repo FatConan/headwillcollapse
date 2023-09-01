@@ -1,4 +1,4 @@
-page_title: The Dead Authors Podcast
+title: The Dead Authors Podcast
 template: page.html
 tags: podcasts
 sub_title: The Dead Authors Podcast

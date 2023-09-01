@@ -1,4 +1,4 @@
-page_title: The Marvel Cinematic Universe
+title: The Marvel Cinematic Universe
 template: page.html
 tags: movies
 sub_title: The M.C.U.

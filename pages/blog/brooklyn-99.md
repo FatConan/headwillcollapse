@@ -1,4 +1,4 @@
-page_title: Brooklyn 99 
+title: Brooklyn 99 
 template: page.html
 tags: tv
 sub_title: Brooklyn 99

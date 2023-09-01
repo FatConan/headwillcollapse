@@ -1,10 +1,12 @@
 import datetime
 from collections import OrderedDict
-from functools import partial
+from sand.plugin import SandPlugin
+
+
 
 VERSION = "2020.12.12.1"
 
-class Plugin:
+class Plugin(SandPlugin):
     def get_tag_groups(self):
         blog = self.site.page_reference.get("/blog", [])
         tag_groups = {}
@@ -30,10 +32,6 @@ class Plugin:
 
     def configure(self, site_data, site):
         self.site = site
-
-    #Called during the parsing phase of the processing
-    def parse(self, site_data, site):
-        pass
 
     def add_render_context(self, page, environment, data):
         data["HWC"] = {

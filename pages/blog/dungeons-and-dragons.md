@@ -1,4 +1,4 @@
-page_title: Dungeons & Dragons
+title: Dungeons & Dragons
 template: page.html
 tags: tabletop
 sub_title: Dungeons & Dragons

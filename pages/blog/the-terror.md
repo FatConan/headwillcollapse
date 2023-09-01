@@ -1,4 +1,4 @@
-page_title: The Terror
+title: The Terror
 template: page.html
 tags: tv
 sub_title: The Terror

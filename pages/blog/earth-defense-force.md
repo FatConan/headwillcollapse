@@ -1,4 +1,4 @@
-page_title: Earth Defense Force 
+title: Earth Defense Force 
 template: page.html
 tags: games
 sub_title: Earth Defense Force

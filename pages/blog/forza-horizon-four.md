@@ -1,4 +1,4 @@
-page_title: Forza Horizon 4 
+title: Forza Horizon 4 
 template: page.html
 tags: games
 sub_title: Forza Horizon 4

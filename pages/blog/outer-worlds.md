@@ -1,4 +1,4 @@
-page_title: The Outer Worlds
+title: The Outer Worlds
 template: page.html
 tags: games
 sub_title: The Outer Worlds
