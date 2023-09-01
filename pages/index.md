@@ -1,4 +1,4 @@
-page_title: If there's nothing in it
+title: If there's nothing in it
 template: index.html
 extended_classes: homepage
 homepage: true
