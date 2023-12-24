@@ -9,8 +9,8 @@ define(["jquery", "d3", "delaunay"], function($, d3, Delaunay){
             this.responsive = options.responsive || false;
             this.pointSize = options.pointSize || 5;
             this.strokeWidth = options.strokeWidth || 3;
-            this.scaleX = options.width/500;
-            this.scaleY = options.height/500;
+            this.scaleX = options.width / 500;
+            this.scaleY = options.height / 500;
             this.canvas = null;
             this.svg = null;
             this.colorCycle = 0;
@@ -31,10 +31,10 @@ define(["jquery", "d3", "delaunay"], function($, d3, Delaunay){
         resetCanvas(canvas){
             //The actual canvas where we'll draw our stuff
             this.canvas = d3.select(canvas);
-                this.canvas.html("");
-                let canvasWidth = this.width;
-                let canvasHeight = this.height;
-                this.svg = this.canvas.append("svg")
+            this.canvas.html("");
+            let canvasWidth = this.width;
+            let canvasHeight = this.height;
+            this.svg = this.canvas.append("svg")
                 .attr("width", canvasWidth)
                 .attr("height", canvasHeight)
                 .append("g")
@@ -42,11 +42,11 @@ define(["jquery", "d3", "delaunay"], function($, d3, Delaunay){
 
         drawCircle(container, node, radius, fill){
             return container.append("circle")
-                    .attr("cx", node.x)
-                    .attr("cy", node.y)
-                    .attr("r", radius)
-                    .style("stroke", "transparent")
-                    .style("fill", fill);
+                .attr("cx", node.x)
+                .attr("cy", node.y)
+                .attr("r", radius)
+                .style("stroke", "transparent")
+                .style("fill", fill);
         }
 
         drawTriangle(container, node1, node2, node3, strokeWidth, onmouseover, onmouseout){
@@ -74,9 +74,9 @@ define(["jquery", "d3", "delaunay"], function($, d3, Delaunay){
         }
 
         alphaShape(pts, alpha, onlyOuter){
-                if(onlyOuter === null){
-                    onlyOuter = true;
-                }
+            if(onlyOuter === null){
+                onlyOuter = true;
+            }
 
             if(pts.length <= 3){
                 /* Need at least four points */
@@ -87,10 +87,10 @@ define(["jquery", "d3", "delaunay"], function($, d3, Delaunay){
             let triangles = delaunay.triangulate();
 
             let edges = [];
-            for(let i=0; i<triangles.length; i+=3){
+            for(let i = 0; i < triangles.length; i += 3){
                 let pa = triangles[i];
-                let pb = triangles[i+1];
-                let pc = triangles[i+2];
+                let pb = triangles[i + 1];
+                let pc = triangles[i + 2];
 
                 let a = Math.sqrt((pa.x - pb.x) ** 2 + (pa.y - pb.y) ** 2);
                 let b = Math.sqrt((pb.x - pc.x) ** 2 + (pb.y - pc.y) ** 2);
@@ -108,8 +108,8 @@ define(["jquery", "d3", "delaunay"], function($, d3, Delaunay){
         }
 
         addEdge(edges, i, j, onlyOuter){
-                /* Add a line between the i-th and j-th points,
-                if not in the list already */
+            /* Add a line between the i-th and j-th points,
+            if not in the list already */
             if(edges.indexOf([i, j]) >= 0 || edges.indexOf([j, i]) >= 0){
                 //already added
             }else{
@@ -170,11 +170,13 @@ define(["jquery", "d3", "delaunay"], function($, d3, Delaunay){
                             .duration(200)
                             .style("fill", color);
                     }
- el.transition()
+                    el.transition()
                         .duration(200)
                         .style("stroke", color);
 
-                    brain.transitionResetTimeout = setTimeout(function(){this.resetTransition();}.bind(brain), 2000);
+                    brain.transitionResetTimeout = setTimeout(function(){
+                        this.resetTransition();
+                    }.bind(brain), 2000);
                 };
             }.bind(this)();
             const noop = function(){
@@ -195,8 +197,8 @@ define(["jquery", "d3", "delaunay"], function($, d3, Delaunay){
 
             for(let i = 0; i < triangles.length; i += 3){
                 let A = this.scale(triangles[i]);
-                let B = this.scale(triangles[i+1]);
-                let C = this.scale(triangles[i+2]);
+                let B = this.scale(triangles[i + 1]);
+                let C = this.scale(triangles[i + 2]);
                 let action = noop;
                 if(this.responsive){
                     action = onmouseover;
@@ -213,7 +215,7 @@ define(["jquery", "d3", "delaunay"], function($, d3, Delaunay){
             this.resetCanvas(target);
             this.draw(this.dataProvider);
         }
-    };
+    }
 
     return function(jsonData, target, options){
         const brain = new Brain(options);

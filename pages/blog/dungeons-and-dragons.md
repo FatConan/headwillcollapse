@@ -9,8 +9,8 @@ jinja_pass: True
 # Dungeons &amp; Dragons
 ## Rolling Charisma Checks
 
-While I'd played tabletop role-playing games before **The Sheep of Sherringale** was the first game I ever ran as a game/dungeon master.
-It's oddly nerve-wracking, something like a job interview, where you hope you've prepared for their questions, but can never really be certain.
+While I'd played tabletop role-playing games before, **The Sheep of Sherringale** was the first game I ever ran as a game/dungeon master.
+It's oddly nerve-wracking, something akin to a job interview, where you hope you've prepared for their questions and scenarios, but can never really be certain.
 
 ![The Sheep of Sherringale][sheep]
 
@@ -18,16 +18,16 @@ It's oddly nerve-wracking, something like a job interview, where you hope you've
 but this time designed to be the introduction of my four-person group to the world of D&amp;D; the first many of them had experienced of it.
 It involved the characters of the party finding themselves wandering into a small, but bustling, market town within which they happen upon a very
 strange sheep. It leads them on and adventure that sees them discover an unfortunate wizard, some lucky, but deeply unpleasant goblins,
-and an unexpectedly powerful wand. Re-reading it recently, I can see how much I'd overthought it, trying to predict everything that they might
-try and noting at least some means of dealing with it. It's a fool's errand really, I've learned they'll always unexpectedly find the gap in
-your planning and drive straight through it regardless of the number of notes you've made in advance.
+and an unexpectedly powerful wand. Re-reading it recently, I can see how much I'd overthought it, trying to predict everything the party might
+try, and noting at least some means of dealing with it. It's a fool's errand really, I've learned they'll always unexpectedly find the gap in
+my planning and drive straight through it regardless of the number of notes I've made in advance.
 
 I shouldn't have worried; everybody had fun.
 
 And that's really the wonderful thing about it, during lockdown we managed to play a series of adventures armed with not much more than some character
 sheets and a Zoom meeting. I got a subscription to the fantastic [D&D Beyond](https://www.dndbeyond.com/) which allows us to manage all the party's
 characters and rolls online and allows me to share any homebrew elements I've manifested for the story. Since that first game, the party has found themselves
-causing chaos, releasing demons, rekindling ancient conflicts, taking command of a ship of undead pirates and making perhaps one friend.
+causing chaos; releasing demons, rekindling ancient conflicts, taking command of a ship of undead pirates, and making perhaps one friend.
 
 I've now written a clutch of adventures that we've either run or are yet to play, and while the nerves haven't really dissipated they're now more attuned to worrying that
 the party won't enjoy the game, rather than the wealth of unknowns I'll face from them. There really isn't anything quite like tabletop role-playing, I'm certainly not

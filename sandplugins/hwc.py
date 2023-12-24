@@ -2,8 +2,6 @@ import datetime
 from collections import OrderedDict
 from sand.plugin import SandPlugin
 
-
-
 VERSION = "2020.12.12.1"
 
 class Plugin(SandPlugin):
