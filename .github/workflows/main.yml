@@ -1,0 +1,14 @@
+on:
+  push:
+    branches:
+      -main
+jobs:
+  vm:
+    runs-on: ubuntu-latest
+    steps:
+      - run: apt updatwe
+      - run: apt upgrade
+      - run: apt install python3 && apt install git
+      - run: git checkout https://github.com/FatConan/sand.git
+      - run: pip install sand/
+      - run: sand .
