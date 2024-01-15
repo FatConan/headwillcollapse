@@ -10,7 +10,7 @@ jobs:
     steps:
       - run: apt update
       - run: apt upgrade -yqq
-      - run: apt install python3 -yqq && apt install git -yqq
+      - run: apt install python3 -yqq && apt install python3-pip -yqq && apt install git -yqq
       - run: git clone https://github.com/FatConan/sand.git
       - run: pip3 install sand/
       - run: sand .
