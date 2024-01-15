@@ -4,8 +4,9 @@ on:
       - main
       - test
 jobs:
-  vm:
+  container:
     runs-on: ubuntu-latest
+    container: ubuntu:22.04
     steps:
       - run: apt update
       - run: apt upgrade
