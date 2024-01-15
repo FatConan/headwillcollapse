@@ -11,6 +11,6 @@ jobs:
       - run: apt update
       - run: apt upgrade -yqq
       - run: apt install python3 -yqq && apt install git -yqq
-      - run: git checkout https://github.com/FatConan/sand.git
+      - run: git clone https://github.com/FatConan/sand.git
       - run: pip install sand/
       - run: sand .
