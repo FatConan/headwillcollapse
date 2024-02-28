@@ -1,4 +1,5 @@
 import "d3";
+import Delaunay from "./delaunay.js";
 
 export class Brain{
     constructor(options){
@@ -146,36 +147,34 @@ export class Brain{
     }
 
     draw(pts){
-        const onmouseover = () => {
-            return () => {
-                if(this.transitionResetTimeout){
-                    clearTimeout(brain.transitionResetTimeout);
-                }
+        const onmouseover = (e) => {
+            if(this.transitionResetTimeout){
+                clearTimeout(this.transitionResetTimeout);
+            }
 
-                let el = d3.select(this);
-                let cInd = this.colorCycle++ % this.rainbowColors.length;
-                let color = this.rainbowColors[cInd];
+            let el = d3.select(e.target);
+            let cInd = this.colorCycle++ % this.rainbowColors.length;
+            let color = this.rainbowColors[cInd];
 
-                let circles = [];
-                for(let textPoint of JSON.parse(el.attr("data-points"))){
-                    if(this.circles[textPoint]){
-                        circles.push(this.circles[textPoint]);
-                    }
+            let circles = [];
+            for(let textPoint of JSON.parse(el.attr("data-points"))){
+                if(this.circles[textPoint]){
+                    circles.push(this.circles[textPoint]);
                 }
+            }
 
-                for(let c of circles){
-                    c.transition()
-                        .duration(200)
-                        .style("fill", color);
-                }
-                el.transition()
+            for(let c of circles){
+                c.transition()
                     .duration(200)
-                    .style("stroke", color);
+                    .style("fill", color);
+            }
+            el.transition()
+                .duration(200)
+                .style("stroke", color);
 
-                this.transitionResetTimeout = setTimeout(() => {
-                    this.resetTransition();
-                }, 2000);
-            };
+            this.transitionResetTimeout = setTimeout(() => {
+                this.resetTransition();
+            }, 2000);
         };
         const noop = () => {
 
@@ -198,9 +197,11 @@ export class Brain{
             let B = this.scale(triangles[i + 1]);
             let C = this.scale(triangles[i + 2]);
             let action = noop;
+
             if(this.responsive){
                 action = onmouseover;
             }
+
             this.triangles.push(this.drawTriangle(container, A, B, C, this.strokeWidth * this.scaleX, action, noop));
         }
 

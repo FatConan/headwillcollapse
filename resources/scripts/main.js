@@ -35,7 +35,8 @@ class AudioPlayer{
 
         const changeSeek = (e) => {
             e.preventDefault();
-            let x = e.pageX - this.$timeline.position().left;
+
+            let x = e.offsetX;
             let width = this.$timeline.width();
 
             //Set the percentage and limit
