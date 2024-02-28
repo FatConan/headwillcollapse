@@ -17,23 +17,23 @@ class AudioPlayer{
     }
 
     addEvents(){
-        const toggleAudio = function(e){
+        const toggleAudio = (e) => {
             this.toggleAudio();
-        }.bind(this);
+        };
 
-        const toggleSound = function(e){
+        const toggleSound = (e) => {
             this.toggleSound();
-        }.bind(this);
+        };
 
-        const changeTimelinePosition = function(e){
+        const changeTimelinePosition = (e) => {
             this.changeTimelinePosition();
-        }.bind(this);
+        };
 
-        const audioEnded = function(e){
+        const audioEnded = (e) => {
             this.audioEnded();
-        }.bind(this);
+        };
 
-        const changeSeek = function(e){
+        const changeSeek = (e) => {
             e.preventDefault();
             let x = e.pageX - this.$timeline.position().left;
             let width = this.$timeline.width();
@@ -41,7 +41,7 @@ class AudioPlayer{
             //Set the percentage and limit
             let pos = Math.min(Math.max((x * 100.0) / width, 0), 100);
             this.changeSeek(pos);
-        }.bind(this);
+        };
 
         this.$timeline.on("click", changeSeek);
         this.$playerButton.on('click', toggleAudio);

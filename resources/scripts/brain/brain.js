@@ -1,3 +1,5 @@
+import "d3";
+
 export class Brain{
     constructor(options){
         this.mainBackground = options.mainBackground;
@@ -144,21 +146,20 @@ export class Brain{
     }
 
     draw(pts){
-        const onmouseover = function(){
-            let brain = this;
-            return function(){
-                if(brain.transitionResetTimeout){
+        const onmouseover = () => {
+            return () => {
+                if(this.transitionResetTimeout){
                     clearTimeout(brain.transitionResetTimeout);
                 }
 
                 let el = d3.select(this);
-                let cInd = brain.colorCycle++ % brain.rainbowColors.length;
-                let color = brain.rainbowColors[cInd];
+                let cInd = this.colorCycle++ % this.rainbowColors.length;
+                let color = this.rainbowColors[cInd];
 
                 let circles = [];
                 for(let textPoint of JSON.parse(el.attr("data-points"))){
-                    if(brain.circles[textPoint]){
-                        circles.push(brain.circles[textPoint]);
+                    if(this.circles[textPoint]){
+                        circles.push(this.circles[textPoint]);
                     }
                 }
 
@@ -171,12 +172,12 @@ export class Brain{
                     .duration(200)
                     .style("stroke", color);
 
-                brain.transitionResetTimeout = setTimeout(function(){
+                this.transitionResetTimeout = setTimeout(() => {
                     this.resetTransition();
-                }.bind(brain), 2000);
+                }, 2000);
             };
-        }.bind(this)();
-        const noop = function(){
+        };
+        const noop = () => {
 
         }
 
