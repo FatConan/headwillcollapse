@@ -1,8 +1,9 @@
-page_title: Phantasy Star Online 2
+title: Phantasy Star Online 2
 template: page.html
 tags: games
 sub_title: Phantasy Star Online 2
 created: 2020-08-23 00:00:00
+jinja_pass: True
 
 # Phantastic
 
@@ -41,12 +42,16 @@ the Star Trek vision of a future space fleet where everyone's allowed to wear se
 Anyway, graphical gripes aside, PSO 2 is a really fun experience that I love not just for the nostalgic twitches it triggers
 in my brain, but also in and of itself as a game.
 
-Plus, my robot avater has a very good hat.  
+Plus, my robot avatar has a very good hat.  
 
 ![Fatconan, the behatted purple robot][pso2]
 
 [pso2]: /resources/img/pages/pso2.jpeg "Fatconan the behatted purple robots"
 [urgent]: /resources/img/pages/urgent.jpeg "An urgent mission in progress"
- 
 
+<div>
+{% with rating_class="COWBOY_HAT", rating="COWBOY HAT", blurb="The only take away is just how great this robot's hat is." %}
+    {% include "snippets/nass.html" %}
+{% endwith %}
+</div>
  

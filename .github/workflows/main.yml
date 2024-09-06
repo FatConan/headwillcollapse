@@ -1,0 +1,17 @@
+on:
+  push:
+    branches:
+      - main
+      - test
+jobs:
+  container:
+    runs-on: ubuntu-latest
+    container: ubuntu:22.04
+    steps:
+      - run: apt update
+      - run: apt upgrade -yqq
+      - run: apt install python3 -yqq && apt install python3-pip -yqq && apt install git -yqq
+      - run: git clone https://github.com/FatConan/sand.git
+      - run: pip3 install sand/
+      - run: git clone https://github.com/FatConan/headwillcollapse.git
+      - run: sand ./headwillcollapse

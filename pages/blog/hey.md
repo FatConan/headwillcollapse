@@ -1,4 +1,4 @@
-page_title: Hey 
+title: Hey 
 template: page.html
 tags: music
 sub_title: Hey! by the Pixies

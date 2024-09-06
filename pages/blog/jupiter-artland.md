@@ -1,4 +1,4 @@
-page_title: Jupiter Artland Edinburgh
+title: Jupiter Artland Edinburgh
 template: page.html
 tags: places
 sub_title: Jupiter Artland

@@ -1,5 +1,5 @@
 .idea
 output
 venv
-sand/__pycache__
+sandplugins/__pycache__
 deploy_key

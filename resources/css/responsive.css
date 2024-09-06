@@ -1,0 +1,93 @@
+@media only screen and (max-width: 1024px){
+    header,
+    .content-wrapper{
+        grid-template-columns: 1fr;
+        width: auto;
+        grid-gap: 0;
+    }
+
+    header h1{
+        font-size: 30pt;
+    }
+
+    section.navigation{
+        grid-row: 2;
+        margin-top: 20px;
+    }
+
+    section.content{
+        grid-column: 1;
+        grid-row: 1;
+    }
+}
+
+@media only screen and (max-width: 750px) {
+    header h1 {
+        font-size: 20pt;
+    }
+
+    div.content-wrapper {
+        padding: 0;
+    }
+
+    section.content div.content-inner {
+        padding: 20px;
+    }
+
+    section.content div.logo {
+        display: none;
+    }
+
+    section.content div.logo a {
+        display: none;
+    }
+
+    section.nass .nass-inner {
+        padding: 20px 32px 20px 0;
+    }
+
+    section.nass .nass-text {
+        padding: 20px 52px 20px 20px;
+    }
+
+    section.nass .nass-rating {
+        float: right;
+        margin-right: -32px;
+    }
+
+    section.nass .nass-rating .rating {
+        width: 64px;
+        height: 64px;
+        border-radius: 50%;
+        margin-left: -10px;
+    }
+
+    .audio-player .status .mute {
+        display: none;
+    }
+
+    img{
+        display: block;
+        width: 100%;
+        max-width: 300px;
+        float: none;
+        margin: 10px auto;
+    }
+
+    img[src="/resources/img/pages/Paul_F_Tompkins.jpg"] {
+        display: block;
+        width: 100%;
+        max-width: 200px;
+        float: none;
+        margin: 10px auto;
+    }
+
+    img[src="/resources/img/pages/sheep.jpg"] {
+         display: block;
+        width: 100%;
+        max-width: 350px;
+        float: none;
+        margin: 10px auto;
+    }
+}
+

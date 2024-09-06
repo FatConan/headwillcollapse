@@ -1,4 +1,4 @@
-page_title: The Marvel Cinematic Universe
+title: The Marvel Cinematic Universe
 template: page.html
 tags: movies
 sub_title: The M.C.U.
@@ -8,7 +8,7 @@ created: 2019-09-04 00:00:00
 # The M.C.U.
 I went to see **Iron Man** in the cinema when it first came out only because my friends had wanted to see it. If they hadn't 
 gone, I imagine I would have picked up a copy on DVD at some point, but it wouldn't have been a priority.  I can't remember
-the last thing I'd seen Robert Downey Jr. in before that. Rehab probably. Still I saw it and it was fine, enjoyable, a decent comic 
+the last thing I'd seen Robert Downey Jr. in before that. Rehab, probably. Still I saw it, and it was fine, enjoyable, a decent comic 
 book movie. Definitely better than the Nolan Batman dreck I'd sat through a couple of years earlier.
 
 I've no idea when I saw **Thor** for the first time, or **The Incredible Hulk**, though I think I came to that one out of order.
@@ -22,7 +22,7 @@ of films that Marvel had been churning out had become a franchise, like Star War
 space and time would be henceforth intertwined in a way that I hadn't seen before.
 
 From there it started to snowball. Not straight away, I bounced off of **Iron Man 3**, and then **Winter Soldier**, but 
-once **Guardians of the Galaxy** came out I realised that the MCU was going to be my go to popcorn accompaniment.  I haven't missed
+once **Guardians of the Galaxy** came out I realised that the MCU was going to be my go-to popcorn accompaniment.  I haven't missed
 an outing at the cinema since. Neither has my partner. She sat, well reclined, through **Infinity War** while still recovering from surgery
 such is her dedication to her fandom.  
  

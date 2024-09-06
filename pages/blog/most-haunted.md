@@ -1,4 +1,4 @@
-page_title: Most Haunted 
+title: Most Haunted 
 template: page.html
 tags: tv
 sub_title: Most Haunted

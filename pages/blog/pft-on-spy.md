@@ -1,14 +1,15 @@
-page_title: Paul F Tompkins on Stop Podcasting Yourself
+title: Paul F Tompkins on Stop Podcasting Yourself
 template: page.html
 tags: podcasts
 sub_title: P.F.T on S.P.Y
 created: 2019-07-26 00:00:00
+jinja_pass: True
 
 
 # P.F.T on S.P.Y
 
 "Stop Podcasting Yourself" is one of Canada's, and probably the world's, longest running podcasts. Podcasters 
-[Dave Schumka](https://twitter.com/daveshumka) and [Graham Clark](https://twitter.com/grahamclark) have been putting out 
+[Dave Shumka](https://twitter.com/daveshumka) and [Graham Clark](https://twitter.com/grahamclark) have been putting out 
 an episode a week for eleven years, as well as various specials and live performances, and as they cruise towards the six-hundredth episode 
 they have amassed a collection of hilarious recordings in their archives.
 
@@ -22,12 +23,10 @@ It's difficult to pick an episode from his contributions (which you can [find he
 but I've decided to go with episode 140 which features a section on knock-off toys and introduces the concept of "Doctor Zee-Ape" the knock-off version "Dr. Zaius" from Planet of the Apes
 which makes me laugh every time I hear it.
 
-<div class="audio">
-    <audio controls="">
-        <source src="http://traffic.libsyn.com/stoppodcastingyourself/Episode_140_-_Paul_F._Tompkins.mp3?dest-id=15269" type="audio/mpeg">
-        Your browser does not support the audio element.
-        Download the audio at http://traffic.libsyn.com/stoppodcastingyourself/Episode_140_-_Paul_F._Tompkins.mp3?dest-id=15269
-    </audio>
+<div>
+    {% with src="http://traffic.libsyn.com/stoppodcastingyourself/Episode_140_-_Paul_F._Tompkins.mp3?dest-id=15269" %}
+        {% include "snippets/audio-player.html" %}
+    {% endwith %}
 </div>
 
 <div class="footnote"><a class="episode_link" href="http://stoppodcastingyourself.libsyn.com/episode-140-paul-f-tompkins">View "Episode 140 - Paul F. Tompkins" on libsyn</a></div>
